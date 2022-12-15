@@ -86,6 +86,9 @@
   .about_content p {
     margin: 1rem 0 1.5rem;
   }
+  .about_container{
+    gap: 5%;
+  }
 }
 
 /* media quries (small)*/
@@ -107,5 +110,9 @@
 
   .about_content p {
     margin: 1.5rem 0;
+  }
+
+  .about_container{
+    gap: 3%;
   }
 }

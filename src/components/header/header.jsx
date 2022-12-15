@@ -3,6 +3,7 @@ import "./header.css";
 import CTA from "./CTA";
 import ME from "../../assets/Amal_C_P.png";
 import HeaderSocial from "./headersocial";
+import { BsFillFileArrowDownFill } from "react-icons/bs";
 
 const header = () => {
   return (
@@ -18,16 +19,18 @@ const header = () => {
           </div>
 
           <div className="me">
-            <div className="social_media_in">
+            {/* <div className="social_media_in">
               <HeaderSocial />
+            </div> */}
+            <div className="header_image">
+              <img src={ME} alt="me" />
             </div>
-
-            <img src={ME} alt="me" />
           </div>
-
-          <a href="#contact" className="scroll_down">
-            Scroll Down
-          </a>
+          <div>
+            <a href="#contact" className="scroll_down">
+              <BsFillFileArrowDownFill />
+            </a>
+          </div>
         </div>
       </div>
     </header>
