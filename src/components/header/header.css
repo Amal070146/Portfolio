@@ -40,7 +40,8 @@ header {
   align-items: center;
   justify-content: space-between;
   gap: 60px;
-  height: fit-content;
+  height: 450px;
+  margin-top: 30px;
 }
 
 /*----------ME--------------*/
@@ -48,10 +49,11 @@ header {
 .me {
   display: flex;
   background: linear-gradient(rgb(8, 41, 65), black);
-  width: 50%;
-  aspect-ratio: 1/1;
+  width: 300px;
+  height: 400px;
+  padding-top: 8px;
   position: relative;
-  margin-top: 4rem;
+  margin-top: 3rem;
   border-radius: 10rem 10rem 0rem 0rem;
   overflow: hidden;
   justify-content: center;
@@ -66,11 +68,6 @@ header {
   color: var(--color-primary);
 }
 
-/* .social_media_in {
-  display: none;
-} */
-
-/* media quries (medium)*/
 
 @media screen and (max-width: 1024px) {
   header {
@@ -85,17 +82,6 @@ header {
     height: 100vh;
   }
 
-  /* .scroll_down,
-  .social_media {
-    display: none;
-  } */
-  /* .social_media_in {
-    display: block;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-  } */
-
   .header_socials::after {
     display: none;
   }
@@ -103,8 +89,14 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100%;
+    height: 500px;
   }
 
+  .me{
+    width: 220px;
+    height: 240px;
+  }
   .header_socials{
     margin: 20px auto -50px auto;
     flex-direction: row;

@@ -19,9 +19,6 @@ const header = () => {
           </div>
 
           <div className="me">
-            {/* <div className="social_media_in">
-              <HeaderSocial />
-            </div> */}
             <div className="header_image">
               <img src={ME} alt="me" />
             </div>
