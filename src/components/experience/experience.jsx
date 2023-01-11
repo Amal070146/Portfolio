@@ -71,11 +71,7 @@ const experience = () => {
           <div><h4>Canva</h4>
           <small className='text_light'>Intermediate</small></div>
         </article>
-        <article className='experience_details'>
-          <BsPatchCheckFill className='experience_details_icon'/>
-          <div><h4>ReactJs</h4>
-          <small className='text_light'>Beginer</small></div>
-        </article>
+       
       </div>
     </div>
   </div>
