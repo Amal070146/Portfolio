@@ -51,7 +51,7 @@ const testiomonials = () => {
        // install Swiper modules
       modules={[Pagination]}
       spaceBetween={40}
-      slidesPerView={3}
+      slidesPerView={1}
       pagination={{ clickable: true }}
       >
         {data.map(({ avatar, name, review }, index) => {
