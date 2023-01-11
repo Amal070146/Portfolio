@@ -43,7 +43,7 @@ const data = [
 
 const testiomonials = () => {
   return (
-    <section id="testiomonials">
+    <section id="testimonials">
       <h5>Review from clients</h5>
       <h2>Testimonials</h2>
 
