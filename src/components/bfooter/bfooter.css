@@ -1,5 +1,5 @@
 footer {
-  background: var(--color-primary);
+  background: rgba(0, 0, 0, 0.4);
   padding: 3rem 0;
   text-align: center;
   font: size 0.9rem;
@@ -7,7 +7,7 @@ footer {
 }
 
 footer a {
-  color: var(--color-bg);
+  color: white;
 }
 
 .footer_logo {
@@ -33,9 +33,9 @@ footer a {
 }
 
 .footer_socials a{
-    background:var(--color-bg);
+    background:black;
     color:white;
-    font-size:2.5rem;
+    font-size:2rem;
     padding:0.5rem;
     border-radius:0.7rem;
     display:flex;
@@ -50,7 +50,7 @@ footer a {
 
 .footer_copyright{
     margin-bottom:4rem;
-    color:var(--color-bg);
+    color:white;
 }
 
  /* media quries (small)*/

@@ -5,10 +5,18 @@ import ME from "../../assets/Amal_C_P.png";
 import HeaderSocial from "./headersocial";
 import { BsFillFileArrowDownFill } from "react-icons/bs";
 
+import About from "../about/About";
+import Experience from '../experience/experience'
+import Services from '../services/services'
+import Portfolio from '../portfolio/portfolio'
+import Testimonials from '../testimonials/testiomonials'
+import Contact from '../contacts/contact'
+import Footer from '../bfooter/bfooter'
+
 const header = () => {
   return (
     <>
-      <div>
+      <div className="whole-wrapper">
         <div className="headers">
           <div className="header_container">
             <h5>Hello I'm</h5>
@@ -33,8 +41,14 @@ const header = () => {
             </a>
           </div>
         </div>
-        <div className="">
-
+        <div className="right-scroll-container">
+          <About />
+          <Experience />
+          <Services />
+          <Portfolio />
+          <Testimonials />
+          <Contact />
+          <Footer />
         </div>
       </div>
     </>
