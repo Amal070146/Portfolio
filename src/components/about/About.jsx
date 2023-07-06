@@ -36,10 +36,11 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda
-            minus earum aliquid natus doloribus cupiditate recusandae molestias
-            distinctio fuga in et quam amet modi harum, omnis officia. Itaque,
-            provident vel.
+            I am a self-driven Computer Science and Engineering student. I am a
+            quick and avid learner who has taken part in multiple internships
+            and projects. I am an enthusiastic individual who is proven to meet
+            deadlines and work as a team player.<br></br> Front-end Developer | UI/UX
+            Designer | Graphic Designer | Back-end Developer
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

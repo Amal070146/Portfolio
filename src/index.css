@@ -2,7 +2,6 @@
 
 * {
   margin: 0;
-  padding: 0 3px 0 3px;
   border: 0;
   outline: 0;
   box-sizing: border-box;
@@ -17,9 +16,7 @@
   --color-primary-variant: rgba(77, 181, 255, 0.4);
   --color-light: rgba(259, 255, 255, 0.6);
 
-
   --transition: all 400ms ease;
-
 
   --container-width-lg: 75%;
   --container-width-md: 89%;
@@ -45,7 +42,6 @@ body {
 /* gerneral styles */
 
 .container {
-  width: var(--container-width-lg);
   margin: auto;
 }
 
@@ -59,6 +55,7 @@ h5 {
 
 section {
   margin-top: 8rem;
+  padding: 0px 10%;
 }
 
 section > h2,
@@ -67,25 +64,24 @@ section > h5 {
   color: var(--color-light);
 }
 
-section >h2{
+section > h2 {
   color: var(--color-primary);
-  margin-bottom: 3rem;
 }
 
 .text-light {
   color: var(--color-light);
 }
 
-a{
+a {
   color: var(--color-primary);
   transition: var(--transition);
 }
 
-a:hover{
+a:hover {
   color: white;
 }
 
-.btn{
+.btn {
   width: max-content;
   display: inline-block;
   color: var(--color-primary);
@@ -96,18 +92,18 @@ a:hover{
   transition: var(--transition);
 }
 
-.btn :hover{
+.btn :hover {
   background-color: white;
   color: var(--color-bg);
   border-color: transparent;
 }
 
-.btn-primary{
+.btn-primary {
   background: var(--color-primary);
   color: var(--color-bg);
 }
 
-img{
+img {
   display: block;
   width: 100%;
   object-fit: cover;
@@ -115,25 +111,16 @@ img{
 
 /* media quries (medium)*/
 
-@media screen and (max-width: 1024px){
-  .container{
+@media screen and (max-width: 1024px) {
+  .container {
     width: var(--container-width-md);
-  }
-
-  section{
-    margin-top: 6rem;
   }
 }
 
 /* media quries (small)*/
 
-@media screen and (max-width: 600px){
-  .container{
+@media screen and (max-width: 600px) {
+  .container {
     width: var(--container-width-ms);
-  }
-
-  section >h2{
-    margin-bottom: 2rem;
-  }
+  } 
 }
-

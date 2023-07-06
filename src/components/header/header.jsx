@@ -1,7 +1,7 @@
 import React from "react";
 import "./header.css";
 import CTA from "./CTA";
-import ME from "../../assets/Amal_C_P.png";
+import ME from "../../assets/myimage.jpg";
 import HeaderSocial from "./headersocial";
 import { BsFillFileArrowDownFill } from "react-icons/bs";
 
