@@ -7,20 +7,24 @@ import { BsFillFileArrowDownFill } from "react-icons/bs";
 
 const header = () => {
   return (
-    <header>
-      <div className="container header_container">
-        <h5>Hello I'm</h5>
-        <h1>Amal C P</h1>
-        <h5 className="text-light">Full Stack Developer</h5>
-        <CTA />
-        <div className="header-image-link-wrapper">
-          <div className="social_media">
-            <HeaderSocial />
-          </div>
+    <>
+      <div>
+        <div className="headers">
+          <div className="header_container">
+            <h5>Hello I'm</h5>
+            <h1>Amal C P</h1>
+            <h5 className="text-light">Full Stack Developer</h5>
 
-          <div className="me">
-            <div className="header_image">
-              <img src={ME} alt="me" />
+            <div className="header-image-link-wrapper">
+              <div className="me">
+                <div className="header_image">
+                  <img src={ME} alt="me" />
+                </div>
+              </div>
+              <div className="social_medias">
+                <HeaderSocial />
+              </div>
+              <CTA />
             </div>
           </div>
           <div>
@@ -29,8 +33,11 @@ const header = () => {
             </a>
           </div>
         </div>
+        <div className="">
+
+        </div>
       </div>
-    </header>
+    </>
   );
 };
 
