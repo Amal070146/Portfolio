@@ -42,7 +42,7 @@ const header = () => {
           <Experience />
           <Services />
           <Portfolio />
-          <Testimonials />
+          {/* <Testimonials /> */}
           <Contact />
           <Footer />
         </div>

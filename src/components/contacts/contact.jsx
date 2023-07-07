@@ -23,10 +23,12 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact">
-      <h5>Get In Touch</h5>
-      <h2>Contact Me</h2>
-      <div className="container contact_container">
+    <div id="contact" className="contact-wrapper">
+      <div className="contact-header">
+        <h5>Get In Touch</h5>
+        <h2>Contact Me</h2>
+      </div>
+      <div className="contact_container">
         <div className="contact_options">
           <article className="contact_option">
             <MdEmail className="contact_option_icon" />
@@ -73,12 +75,12 @@ const Contact = () => {
             placeholder="Your Message"
             required
           ></textarea>
-          <button type="submit" className="btn btn-primary">
+          <button type="submit" className="formbtn">
             Send Message
           </button>
         </form>
       </div>
-    </section>
+    </div>
   );
 };
 

@@ -33,7 +33,7 @@ const bfooter = () => {
         </li>
       </ul>
 
-      <div className="footer_socials">
+      {/* <div className="footer_socials">
         <a href="https://www.facebook.com/amal.cpaulson/">
           <FaFacebookF />
         </a>
@@ -43,7 +43,7 @@ const bfooter = () => {
         <a href="https://twitter.com/amalcpaulson">
           <FaTwitter />
         </a>
-      </div>
+      </div> */}
 
       <div className="footer_copyright">
         <small>&copy; All rights reserved</small>
