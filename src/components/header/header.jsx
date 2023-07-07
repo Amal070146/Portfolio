@@ -35,11 +35,7 @@ const header = () => {
               <CTA />
             </div>
           </div>
-          <div>
-            <a href="#contact" className="scroll_down">
-              <BsFillFileArrowDownFill />
-            </a>
-          </div>
+          
         </div>
         <div className="right-scroll-container">
           <About />

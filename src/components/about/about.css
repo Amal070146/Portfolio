@@ -1,7 +1,28 @@
+.about-section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 50px 0px;
+}
+.about-heading{
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.about-heading>h5{
+  font-size: 20px;
+}
+.about-heading>h2{
+  font-size: 30px;
+}
 .about_container {
-  display: grid;
-  grid-template-columns: 35% 50%;
+  
   gap: 15%;
+  width: var(--container-width-lg);
+  margin: auto;
 }
 
 .about_me {
@@ -37,9 +58,9 @@
 }
 
 .about_card {
-  background-color: var(--color-bg-variant);
+  background-color: rgba(0, 0, 0, 0.9);
   border: 1px solid transparent;
-  border-radius: 1rem;
+  border-radius: 10px;
   padding: 2rem;
   text-align: center;
   transition: var(--transition);
@@ -86,7 +107,7 @@
   .about_content p {
     margin: 1rem 0 1.5rem;
   }
-  .about_container{
+  .about_container {
     gap: 5%;
   }
 }
@@ -112,7 +133,7 @@
     margin: 1.5rem 0;
   }
 
-  .about_container{
+  .about_container {
     gap: 3%;
   }
 }

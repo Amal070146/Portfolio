@@ -7,46 +7,45 @@ import { RiProjectorFill } from "react-icons/ri";
 
 const About = () => {
   return (
-    <section id="about">
-      <h5>Get To Know</h5>
-      <h2>About Me</h2>
-
-      <div className="container about_container">
-        <div className="about_me">
-          <div className="about_me_image">
-            <img src={ME} alt="" />
-          </div>
-        </div>
+    <div id="about" className="about-section">
+      <div className="about-heading">
+        <h5>Get To Know</h5>
+        <h2>About Me</h2>
+      </div>
+      <div className="about_container">
         <div className="about_content">
           <div className="about_cards">
             <article className="about_card">
               <RiAwardFill className="about_icon" />
               <h5>Experience</h5>
-              <small>2+ Years Working</small>
+              <small>3+ Years Working</small>
             </article>
             <article className="about_card">
               <HiOutlineUsers className="about_icon" />
               <h5>Clients</h5>
-              <small>20+ Clents</small>
+              <small>30+ Clents</small>
             </article>
             <article className="about_card">
               <RiProjectorFill className="about_icon" />
               <h5>Projects</h5>
-              <small>20+ Projects</small>
+              <small>40+ Projects</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda
-            minus earum aliquid natus doloribus cupiditate recusandae molestias
-            distinctio fuga in et quam amet modi harum, omnis officia. Itaque,
-            provident vel.
+            I am a motivated Computer Science and Engineering student with track
+            record of taking part in multiple internships and projects. As a
+            quick and avid learner, I am committed to staying up-to-date with
+            latest advancements in my field. I am known for my enthusiasm and
+            ability to work well in a team environment, and I have a proven
+            track record of meeting tight deadlines. Front-end Developer | UI/UX
+            Designer | Graphic Designer | Back-end Developer
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
           </a>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
