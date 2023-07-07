@@ -8,6 +8,8 @@ import IMG4 from "../../assets/projects/wrap.png";
 import IMG5 from "../../assets/portfolio1.png";
 import IMG6 from "../../assets/portfolio1.png";
 
+import {MdOutlineReadMore} from 'react-icons/md'
+
 const data = [
   {
     id: 1,
@@ -81,8 +83,8 @@ const portfolio = () => {
         })}
       </div>
 
-      <div>
-        <button>View More</button>
+      <div className="portfolio-view-button">
+        <a href="/projects"> View More <MdOutlineReadMore /></a>
       </div>
     </div>
   );

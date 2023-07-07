@@ -3,9 +3,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 40px;
   height: fit-content;
   margin-bottom: 50px;
+  width: 100%;
 }
 .portfolio-header {
   display: flex;
@@ -67,7 +67,26 @@
     align-items: center;
     justify-content: center;
 }
+.portfolio-view-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+margin-top: 30px;
+}
 
+.portfolio-view-button a{
+    color: black;
+    background-color: #15cf81;
+    padding:0.5rem 2rem;
+    border-radius: 25px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.portfolio-view-button>a:hover{
+color: white;
+}
 /* media quries (medium)*/
 
 @media screen and (max-width: 1024px) {

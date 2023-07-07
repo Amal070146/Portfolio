@@ -51,6 +51,9 @@ const Projects = () => {
           </a>
         </nav>
       </div>
+      <div className='projects-wrapper'>
+
+      </div>
     </div>
   );
 }
