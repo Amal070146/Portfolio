@@ -80,6 +80,10 @@ const portfolio = () => {
           );
         })}
       </div>
+
+      <div>
+        <button>View More</button>
+      </div>
     </div>
   );
 };
