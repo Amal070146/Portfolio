@@ -10,26 +10,19 @@ footer a {
   color: white;
 }
 
-.footer_logo {
-  font-size: 3rem;
-  font-weight: 600;
-  margin-bottom: 2rem;
-  display: inline-block;
-}
-
 .permalinks {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
-  margin: 0 auto 3rem;
+  margin: 0 auto 2rem;
 }
 
 .footer_socials {
   display: flex;
   justify-content: center;
   gap: 1rem;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .footer_socials a{
@@ -49,7 +42,7 @@ footer a {
 }
 
 .footer_copyright{
-    margin-bottom:4rem;
+    margin-bottom:1rem;
     color:white;
 }
 

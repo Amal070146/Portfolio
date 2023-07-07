@@ -119,8 +119,7 @@
   overflow-y: scroll;
   backdrop-filter: blur(4px);
 
-  background: linear-gradient(180deg, #000 23.44%, rgba(88, 88, 88, 0) 100%);
-  /* background: linear-gradient(180deg, #B5B5B5 14.06%, rgba(88, 88, 88, 0.38) 100%); */
+background-color: rgba(0, 0, 0, 0.7);  /* background: linear-gradient(180deg, #B5B5B5 14.06%, rgba(88, 88, 88, 0.38) 100%); */
 }
 @media screen and (max-width: 1024px) {
 }

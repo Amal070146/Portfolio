@@ -7,9 +7,7 @@ import { FaInstagram } from "react-icons/fa";
 const bfooter = () => {
   return (
     <footer>
-      <a href="#" className="footer_logo">
-        ACP
-      </a>
+   
 
       <ul className="permalinks">
         <li>
