@@ -1,53 +1,79 @@
-.portfolio_container{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 2.5rem;
+.portfolio-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  height: fit-content;
+  margin-bottom: 50px;
+}
+.portfolio-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
-.portfolio_item{
-    background: var(--color-bg-variant);
-    padding: 1.3rem;
-    border-radius: 2rem;
-    border: 1px solid transparent;
-    transition: var(--transition);
+.portfolio-header > h5 {
+  font-size: 20px;
+}
+.portfolio-header > h2 {
+  font-size: 30px;
 }
 
-.portfolio_item:hover{
-    border-color: var(--color-primary-variant);
-    background: transparent;
+.portfolio_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
 }
 
-.portfolio_item_image{
-    border-radius: 1.5rem;
-    overflow: hidden;
+.portfolio_item {
+  background: rgba(190, 186, 186, 0.1);
+  backdrop-filter: blur(7px);
+  padding: 1.3rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+  height: fit-content;
+  width: 400px;
 }
 
-.portfolio_item h3{
-    margin: 1.2rem 0 2rem;
-
+.portfolio_item:hover {
+  border-color: #15cf81;
+  background: transparent;
 }
 
-.portfolio_item_cta{
+.portfolio_item_image {
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+
+.portfolio_item h3 {
+  margin: 1.2rem 0 2rem;
+}
+
+.portfolio_item_cta {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.portfolio_item_cta > a{
+    width: 100%;
     display: flex;
-    gap: 1rem;
-    margin-bottom: 1rem;
+    align-items: center;
+    justify-content: center;
 }
-
 
 /* media quries (medium)*/
 
 @media screen and (max-width: 1024px) {
-    .portfolio_container{
-        grid-template-columns: 1fr 1fr;
-        gap: 1.2rem;
-    }
-  }
-  
-  /* media quries (small)*/
-  
-  @media screen and (max-width: 600px) {
-    .portfolio_container{
-        grid-template-columns: 1fr;
-        gap: 1rem;
-    }
-  }
+}
+
+/* media quries (small)*/
+
+@media screen and (max-width: 600px) {
+}
