@@ -4,10 +4,12 @@ import { HiCheckCircle } from "react-icons/hi";
 
 const services = () => {
   return (
-    <section id="services">
-      <h5>What I Offer</h5>
-      <h2>Services</h2>
-      <div className="container services_container">
+    <section id="services" className="sevice-wrapper">
+      <div className="service-header">
+        <h5>What I Offer</h5>
+        <h2>Services</h2>
+      </div>
+      <div className="services_container">
         <article className="service">
           <div className="service_head">
             <h3>UI/UX Design</h3>
@@ -15,31 +17,35 @@ const services = () => {
           <ul className="service_list">
             <li>
               <HiCheckCircle className="service_list_icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>User Research</p>
             </li>
             <li>
               <HiCheckCircle className="service_list_icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Information Architecture</p>
             </li>
             <li>
               <HiCheckCircle className="service_list_icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>User Interface (UI) Design</p>
             </li>
             <li>
               <HiCheckCircle className="service_list_icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Interaction Design</p>
             </li>
             <li>
               <HiCheckCircle className="service_list_icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Prototyping and Testing</p>
             </li>
             <li>
               <HiCheckCircle className="service_list_icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Visual Design</p>
             </li>
             <li>
               <HiCheckCircle className="service_list_icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Accessibility</p>
+            </li>{" "}
+            <li>
+              <HiCheckCircle className="service_list_icon" />
+              <p>Collaboration and Communication</p>
             </li>
           </ul>
         </article>
@@ -50,66 +56,35 @@ const services = () => {
           <ul className="service_list">
             <li>
               <HiCheckCircle className="service_list_icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Website Design</p>
             </li>
             <li>
               <HiCheckCircle className="service_list_icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Front-End Development</p>
             </li>
             <li>
               <HiCheckCircle className="service_list_icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Back-End Development</p>
             </li>
             <li>
               <HiCheckCircle className="service_list_icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>E-Commerce Development</p>
             </li>
             <li>
               <HiCheckCircle className="service_list_icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Content Management Systems (CMS)</p>
             </li>
             <li>
               <HiCheckCircle className="service_list_icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Website Maintenance and Support</p>
             </li>
             <li>
               <HiCheckCircle className="service_list_icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Search Engine Optimization (SEO)</p>
             </li>
             <li>
               <HiCheckCircle className="service_list_icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-          </ul>
-        </article>
-        <article className="service">
-          <div className="service_head">
-            <h3>Poster Design</h3>
-          </div>
-          <ul className="service_list">
-            <li>
-              <HiCheckCircle className="service_list_icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <HiCheckCircle className="service_list_icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <HiCheckCircle className="service_list_icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <HiCheckCircle className="service_list_icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <HiCheckCircle className="service_list_icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <HiCheckCircle className="service_list_icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Web Hosting and Deployment</p>
             </li>
           </ul>
         </article>
