@@ -2,16 +2,14 @@
 
 * {
   margin: 0;
-  padding: 0 ;
+  padding: 0;
   border: 0;
   outline: 0;
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
   scroll-behavior: smooth;
-
 }
-
 
 /* Set the width and color of the scrollbar */
 ::-webkit-scrollbar {
@@ -27,9 +25,7 @@
   --color-primary-variant: rgba(77, 181, 255, 0.4);
   --color-light: rgba(259, 255, 255, 0.6);
 
-
   --transition: all 400ms ease;
-
 
   --container-width-lg: 75%;
   --container-width-md: 89%;
@@ -48,7 +44,6 @@ body {
   font-family: "Poppins", sans-serif;
   color: white;
   background-image: url(./assets/bg-patterns.png);
-  background-color: black;
 }
 
 /* gerneral styles */
@@ -66,15 +61,13 @@ h5 {
   font-weight: 500;
 }
 
-
-
 section > h2,
 section > h5 {
   text-align: center;
   color: var(--color-light);
 }
 
-section >h2{
+section > h2 {
   color: var(--color-primary);
 }
 
@@ -82,16 +75,16 @@ section >h2{
   color: var(--color-light);
 }
 
-a{
+a {
   color: var(--color-primary);
   transition: var(--transition);
 }
 
-a:hover{
+a:hover {
   cursor: pointer;
 }
 
-.btn{
+.btn {
   width: max-content;
   display: inline-block;
   color: var(--color-primary);
@@ -102,18 +95,18 @@ a:hover{
   transition: var(--transition);
 }
 
-.btn :hover{
+.btn :hover {
   background-color: white;
   color: var(--color-bg);
   border-color: transparent;
 }
 
-.btn-primary{
+.btn-primary {
   background: var(--color-primary);
   color: var(--color-bg);
 }
 
-img{
+img {
   display: block;
   width: 100%;
   object-fit: cover;
@@ -121,21 +114,16 @@ img{
 
 /* media quries (medium)*/
 
-@media screen and (max-width: 1024px){
-  .container{
+@media screen and (max-width: 1024px) {
+  .container {
     width: var(--container-width-md);
   }
-
-
 }
 
 /* media quries (small)*/
 
-@media screen and (max-width: 600px){
-  .container{
+@media screen and (max-width: 600px) {
+  .container {
     width: var(--container-width-ms);
   }
-
-
 }
-

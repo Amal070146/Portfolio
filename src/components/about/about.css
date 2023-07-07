@@ -1,5 +1,5 @@
 .about-section {
-  height: 100vh;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,31 +25,9 @@
   margin: auto;
 }
 
-.about_me {
-  width: 100%;
-  aspect-ratio: 1/1;
-  border-radius: 2rem;
-  background: linear-gradient(
-    45deg,
-    transparent,
-    var(--color-primary),
-    transparent
-  );
-  display: grid;
-  place-items: center;
-}
 
-.about_me_image {
-  border-radius: 2rem;
-  overflow: hidden;
-  transform: rotate(10deg);
-  transition: all 400ms ease;
-  background-color: var(--color-primary);
-}
 
-.about_me_image:hover {
-  transform: rotate(0deg);
-}
+
 
 .about_cards {
   display: grid;
@@ -90,6 +68,7 @@
 .about_content p {
   margin: 2rem 0 2.5rem 0;
   color: var(--color-light);
+  text-align: justify;
 }
 
 /* media quries (medium)*/
@@ -114,11 +93,8 @@
 
 /* media quries (small)*/
 
-@media screen and (max-width: 600px) {
-  .about_me {
-    width: 65%;
-    margin: 0 auto 3rem;
-  }
+@media screen and (max-width: 990px) {
+
 
   .about_cards {
     grid-template-columns: 1fr 1fr;
@@ -126,14 +102,10 @@
   }
 
   .about_content {
-    text-align: center;
+    text-align: justify;
   }
 
-  .about_content p {
-    margin: 1.5rem 0;
-  }
+  
 
-  .about_container {
-    gap: 3%;
-  }
+  
 }
