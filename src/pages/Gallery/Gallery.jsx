@@ -56,7 +56,7 @@ const Gallery = () => {
           <div class="gallery__column">
             <a
               href="https://unsplash.com/@jeka_fe"
-              target="_blank"
+              
               class="gallery__link"
             >
               <figure class="gallery__thumb">
@@ -73,7 +73,7 @@ const Gallery = () => {
 
             <a
               href="https://unsplash.com/@oladimeg"
-              target="_blank"
+            
               class="gallery__link"
             >
               <figure class="gallery__thumb">
@@ -90,7 +90,7 @@ const Gallery = () => {
 
             <a
               href="https://unsplash.com/@a2eorigins"
-              target="_blank"
+            
               class="gallery__link"
             >
               <figure class="gallery__thumb">
@@ -109,7 +109,7 @@ const Gallery = () => {
           <div class="gallery__column">
             <a
               href="https://unsplash.com/@noahbuscher"
-              target="_blank"
+            
               class="gallery__link"
             >
               <figure class="gallery__thumb">
@@ -126,7 +126,7 @@ const Gallery = () => {
 
             <a
               href="https://unsplash.com/@von_co"
-              target="_blank"
+        
               class="gallery__link"
             >
               <figure class="gallery__thumb">
@@ -143,7 +143,7 @@ const Gallery = () => {
 
             <a
               href="https://unsplash.com/@samburriss"
-              target="_blank"
+            
               class="gallery__link"
             >
               <figure class="gallery__thumb">
@@ -162,7 +162,7 @@ const Gallery = () => {
           <div class="gallery__column">
             <a
               href="https://unsplash.com/@marilezhava"
-              target="_blank"
+            
               class="gallery__link"
             >
               <figure class="gallery__thumb">
@@ -179,7 +179,7 @@ const Gallery = () => {
 
             <a
               href="https://unsplash.com/@ethanhaddox"
-              target="_blank"
+       
               class="gallery__link"
             >
               <figure class="gallery__thumb">
@@ -196,7 +196,7 @@ const Gallery = () => {
 
             <a
               href="https://unsplash.com/@mr_geshani"
-              target="_blank"
+          
               class="gallery__link"
             >
               <figure class="gallery__thumb">
@@ -215,7 +215,7 @@ const Gallery = () => {
           <div class="gallery__column">
             <a
               href="https://unsplash.com/@frxgui"
-              target="_blank"
+       
               class="gallery__link"
             >
               <figure class="gallery__thumb">
@@ -232,7 +232,7 @@ const Gallery = () => {
 
             <a
               href="https://unsplash.com/@majestical_jasmin"
-              target="_blank"
+
               class="gallery__link"
             >
               <figure class="gallery__thumb">
@@ -249,7 +249,7 @@ const Gallery = () => {
 
             <a
               href="https://unsplash.com/@dimadallacqua"
-              target="_blank"
+     
               class="gallery__link"
             >
               <figure class="gallery__thumb">

@@ -4,7 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./pages/Homepage/Homepage";
 import Gallery from './pages/Gallery/Gallery'
 import Projects from './pages/Projects/Projects'
-import Nav from "./components/nav/nav";
+// import Nav from "./components/nav/nav";
 
 
 function App ()  {

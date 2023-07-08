@@ -9,61 +9,68 @@ const homegalery = () => {
       <div>
         <h2>Gallery</h2>
       </div>
-      <ul class="honeycomb" lang="es">
-        <li class="honeycomb-cell">
+      <ul className="honeycomb" lang="es">
+        <li className="honeycomb-cell">
           <img
-            class="honeycomb-cell__image"
+            className="honeycomb-cell__image"
             src="https://source.unsplash.com/random/1"
+            alt="img"
           />
-          <div class="honeycomb-cell__title">Diseño exclusivo</div>
+          <div className="honeycomb-cell__title">Diseño exclusivo</div>
         </li>
-        <li class="honeycomb-cell">
+        <li className="honeycomb-cell">
           <img
-            class="honeycomb-cell__image"
+            className="honeycomb-cell__image"
             src="https://source.unsplash.com/random/2"
+            alt="img"
           />
-          <div class="honeycomb-cell__title">Impermeables</div>
+          <div className="honeycomb-cell__title">Impermeables</div>
         </li>
-        <li class="honeycomb-cell">
+        <li className="honeycomb-cell">
           <img
-            class="honeycomb-cell__image"
+            className="honeycomb-cell__image"
             src="https://source.unsplash.com/random/3"
+            alt="img"
           />
-          <div class="honeycomb-cell__title">Tablero doble cara</div>
+          <div className="honeycomb-cell__title">Tablero doble cara</div>
         </li>
-        <li class="honeycomb-cell">
+        <li className="honeycomb-cell">
           <img
-            class="honeycomb-cell__image"
+            className="honeycomb-cell__image"
             src="https://source.unsplash.com/random/4"
+            alt="img"
           />
-          <div class="honeycomb-cell__title">Maletín de empaque</div>
+          <div className="honeycomb-cell__title">Maletín de empaque</div>
         </li>
-        <li class="honeycomb-cell">
+        <li className="honeycomb-cell">
           <img
-            class="honeycomb-cell__image"
+            className="honeycomb-cell__image"
             src="https://source.unsplash.com/random/5"
+            alt="img"
           />
-          <div class="honeycomb-cell__title">
+          <div className="honeycomb-cell__title">
             Antireflectivo<small>No vidrio</small>
           </div>
         </li>
-        <li class="honeycomb-cell">
+        <li className="honeycomb-cell">
           <img
-            class="honeycomb-cell__image"
+            className="honeycomb-cell__image"
             src="https://source.unsplash.com/random/6"
+            alt="img"
           />
-          <div class="honeycomb-cell__title">
+          <div className="honeycomb-cell__title">
             6 fichas<small>1 de repuesto</small>
           </div>
         </li>
-        <li class="honeycomb-cell">
+        <li className="honeycomb-cell">
           <img
-            class="honeycomb-cell__image"
+            className="honeycomb-cell__image"
             src="https://source.unsplash.com/random/7"
+            alt="img"
           />
-          <div class="honeycomb-cell__title">Tablero magnético</div>
+          <div className="honeycomb-cell__title">Tablero magnético</div>
         </li>
-        <li class="honeycomb-cell honeycomb__placeholder"></li>
+        <li className="honeycomb-cell honeycomb__placeholder"></li>
       </ul>
       <div className="portfolio-view-button">
         <a href="/gallery">
