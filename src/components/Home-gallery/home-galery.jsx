@@ -1,12 +1,14 @@
 import React from 'react'
 import './homegalery.css'
+import { MdOutlineReadMore } from "react-icons/md";
+
 
 const homegalery = () => {
   return (
-    <div className='homegalery-wrapper'>
-        <div>
-            <h2>Gallery</h2>
-        </div>
+    <div className="homegalery-wrapper">
+      <div>
+        <h2>Gallery</h2>
+      </div>
       <ul class="honeycomb" lang="es">
         <li class="honeycomb-cell">
           <img
@@ -63,6 +65,12 @@ const homegalery = () => {
         </li>
         <li class="honeycomb-cell honeycomb__placeholder"></li>
       </ul>
+      <div className="portfolio-view-button">
+        <a href="/gallery">
+          {" "}
+          View More <MdOutlineReadMore />
+        </a>
+      </div>
     </div>
   );
 }
