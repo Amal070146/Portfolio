@@ -17,7 +17,7 @@
 }
 
 .navbar a {
-  background: #3a7e62;
+  background: rgba(77, 181, 255, 0.4);
   padding: 0.3rem;
   border-radius: 50%;
   display: flex;
@@ -26,11 +26,11 @@
 }
 
 .navbar a:hover {
-  background-color: rgba(14, 187, 37, 0.6);
+  background-color: #4db5ff;
 }
 
 .navbar a.active {
-  background-color: rgba(14, 187, 37, 0.7);
+  background-color: rgba(77, 181, 255, 0.4);
   color: white;
 }
 

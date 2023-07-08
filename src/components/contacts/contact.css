@@ -53,7 +53,7 @@
 
 .contact_option:hover {
   background: transparent;
-  border-color: #15cf81;
+  border-color: #4db5ff;
 }
 
 .contact_option_icon {
@@ -65,7 +65,7 @@
   margin-top: 0.7rem;
   display: inline-block;
   font-size: 0.8rem;
-  color: #15cf81;
+  color: #4db5ff;
 }
 
 /******************* FORM ***********************/
@@ -83,7 +83,7 @@ textarea {
   padding: 1.5rem;
   border-radius: 0.5rem;
   background: transparent;
-  border: 2px solid #15cf81;
+  border: 2px solid #4db5ff;
   resize: none;
   color: white;
 }
@@ -94,9 +94,9 @@ textarea {
   padding: 0.75rem 1.2rem;
   border-radius: 0.4rem;
   cursor: pointer;
-  border: 1px solid #15cf81;
+  border: 1px solid #4db5ff;
   transition: var(--transition);
-  color: #15cf81;
+  color: #4db5ff;
   background-color: transparent;
 }
 /* media quries (medium)*/

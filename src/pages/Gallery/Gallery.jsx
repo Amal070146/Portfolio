@@ -55,7 +55,10 @@ const Gallery = () => {
           </a>
         </nav>
       </div>
-      <div className="gallery-wrapper"></div>
+      <div className="gallery-wrapper">
+
+
+      </div>
     </div>
   );
 }

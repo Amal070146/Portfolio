@@ -33,7 +33,7 @@
 .service {
   background: black;
   border-radius: 2rem;
-  border: 1px solid #15cf81;
+  border: 1px solid #4db5ff;
   height: fit-content;
   width: fit-content;
   transition: var(--transition);
@@ -47,7 +47,7 @@
 }
 
 .service_head {
-  background: #15cf81;
+  background: #4db5ff;
   padding: 2rem 1rem;
   border-radius: 2rem;
 
@@ -70,7 +70,7 @@
 }
 
 .service_list_icon {
-  color: #15cf81;
+  color: #4db5ff;
   margin-top: 2px;
 }
 

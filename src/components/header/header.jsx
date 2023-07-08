@@ -10,6 +10,7 @@ import Experience from "../experience/experience";
 import Services from "../services/services";
 import Portfolio from "../portfolio/portfolio";
 import Testimonials from "../testimonials/testiomonials";
+import Gallery from '../Home-gallery/home-galery'
 import Contact from "../contacts/contact";
 import Footer from "../bfooter/bfooter";
 
@@ -43,6 +44,7 @@ const header = () => {
           <Services />
           <Portfolio />
           {/* <Testimonials /> */}
+          <Gallery />
           <Contact />
           <Footer />
         </div>
