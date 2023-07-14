@@ -13,6 +13,7 @@ import Portfolio from "../portfolio/portfolio";
 import Gallery from '../Home-gallery/home-galery'
 import Contact from "../contacts/contact";
 import Footer from "../bfooter/bfooter";
+import Tools from '../Tool/tools'
 
 const header = () => {
   return (
@@ -44,6 +45,7 @@ const header = () => {
           <Services />
           <Portfolio />
           {/* <Testimonials /> */}
+          <Tools />
           <Gallery />
           <Contact />
           <Footer />
