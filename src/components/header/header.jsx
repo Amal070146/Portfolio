@@ -4,16 +4,15 @@ import CTA from "./CTA";
 import ME from "../../assets/amalcp.png";
 import HeaderSocial from "./headersocial";
 
-
 import About from "../about/About";
 import Experience from "../experience/experience";
 import Services from "../services/services";
 import Portfolio from "../portfolio/portfolio";
 // import Testimonials from "../testimonials/testiomonials";
-import Gallery from '../Home-gallery/home-galery'
+import Gallery from "../Home-gallery/home-galery";
 import Contact from "../contacts/contact";
 import Footer from "../bfooter/bfooter";
-import Tools from '../Tool/tools'
+import Tools from "../Tool/tools";
 
 const header = () => {
   return (
@@ -28,9 +27,7 @@ const header = () => {
             </div>
             <div className="header-image-link-wrapper">
               <div className="me">
-         
-                  <img src={ME} alt="me" />
-          
+                <img src={ME} alt="me" />
               </div>
               <div className="social_medias">
                 <HeaderSocial />

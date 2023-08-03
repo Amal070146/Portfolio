@@ -5,7 +5,9 @@ import IMG2 from "../../assets/projects/mulearncce.png";
 import IMG3 from "../../assets/projects/fundesign.png";
 
 import IMG4 from "../../assets/projects/wrap.png";
-import IMG5 from "../../assets/portfolio1.png";
+import IMG5 from "../../assets/projects/unnathi.png";
+import IMG6 from "../../assets/portfolio1.png";
+
 
 
 import {MdOutlineReadMore} from 'react-icons/md'
@@ -42,22 +44,22 @@ const data = [
   {
     id: 5,
     image: IMG5,
+    title: "Unnathi - Website",
+    github: "https://github.com/Amal070146/unnathi-vite",
+    demo: "https://unnathi-vite.vercel.app/",
+  },
+  {
+    id: 6,
+    image: IMG6,
     title: "Lab Report Daily basis analysing application",
     github: "https://github.com/Amal070146/TEZER",
-    demo: "https://cdn.dribbble.com/userupload/3864186/file/original-e76878961f17b4df6817b0d95a4a4d34.png?compress=1&resize=1200x900",
+    demo: "https://github.com/Amal070146/TEZER",
   },
-  // {
-  //   id: 6,
-  //   image: IMG1,
-  //   title: "Lab Report Daily basis analysing application",
-  //   github: "https://github.com/Amal070146/TEZER",
-  //   demo: "https://cdn.dribbble.com/userupload/3864186/file/original-e76878961f17b4df6817b0d95a4a4d34.png?compress=1&resize=1200x900",
-  // },
 ];
 
 const portfolio = () => {
   return (
-    <div id="portfolio" className=".portfolio-wrapper">
+    <div id="portfolio"  className=".portfolio-wrapper">
       <div className="portfolio-header ">
         <h5>My Recent Work</h5>
         <h2>Portfolio</h2>
