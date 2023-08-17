@@ -46,7 +46,7 @@ const data = [
     image: IMG5,
     title: "Unnathi - Website",
     github: "https://github.com/Amal070146/unnathi-vite",
-    demo: "https://unnathi-vite.vercel.app/",
+    demo: "https://unnathi-new.vercel.app/",
   },
   {
     id: 6,

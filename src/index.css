@@ -43,7 +43,8 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   color: white;
-  background-image: url(./assets/bg-patterns.png);
+  background-color: #0a3e63;
+
 }
 
 /* gerneral styles */
@@ -51,6 +52,7 @@ body {
 .container {
   width: var(--container-width-lg);
   margin: auto;
+
 }
 
 h1,
