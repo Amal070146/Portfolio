@@ -2,21 +2,26 @@ import React from 'react'
 import './homegalery.css'
 import { MdOutlineReadMore } from "react-icons/md";
 
+// certificate
+
+import img1 from "../../assets/certificates/Beach hack 5 Amal C P.jpg";
+import img2 from "../../assets/certificates/cdw..png";
+
 
 const homegalery = () => {
   return (
     <div className="homegalery-wrapper">
-      <div>
-        <h2>Gallery</h2>
+      <div style={{ textAlign: "center" }}>
+        <h2 style={{ textAlign: "center" }}>Certifications & Achievements</h2>
       </div>
       <ul className="honeycomb" lang="es">
         <li className="honeycomb-cell">
           <img
             className="honeycomb-cell__image"
-            src="https://source.unsplash.com/random/1"
+            src={img1}
             alt="img"
           />
-          <div className="honeycomb-cell__title">Diseño exclusivo</div>
+          <div className="honeycomb-cell__title">Beach Hack 5</div>
         </li>
         <li className="honeycomb-cell">
           <img
