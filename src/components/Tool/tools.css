@@ -1,11 +1,4 @@
 
-h1 {
-  font-size: 50px;
-  font-weight: 400;
-  line-height: 64px;
-  color: #fefefe;
-}
-
 
 .tools-wrapper{
     display: flex;
@@ -13,6 +6,11 @@ h1 {
     align-items: center;
     justify-content: center;
     margin-top: 100px;
+}
+.tools-wrapper>h2{
+   font-size: 2rem;
+   width: 100%;
+   padding: 0px 10%;
 }
 #content-body {
   display: flex;

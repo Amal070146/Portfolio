@@ -59,10 +59,9 @@ const data = [
 
 const portfolio = () => {
   return (
-    <div id="portfolio"  className=".portfolio-wrapper">
+    <div id="portfolio" className=".portfolio-wrapper">
       <div className="portfolio-header ">
-        <h5>My Recent Work</h5>
-        <h2>Portfolio</h2>
+        <h2>My Recent Projects</h2>
       </div>
       <div className="portfolio_container">
         {data.map(({ id, image, title, github, demo }) => {
@@ -84,10 +83,10 @@ const portfolio = () => {
           );
         })}
       </div>
-
+      {/* 
       <div className="portfolio-view-button">
         <a href="/projects"> View More <MdOutlineReadMore /></a>
-      </div>
+      </div> */}
     </div>
   );
 };

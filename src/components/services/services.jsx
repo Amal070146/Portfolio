@@ -4,13 +4,11 @@ import { HiCheckCircle } from "react-icons/hi";
 
 const services = () => {
   return (
-    <section id="services" 
-     className="sevice-wrapper">
+    <section id="services" className="sevice-wrapper">
       <div className="service-header">
-        <h5>What I Offer</h5>
-        <h2>Services</h2>
+        <h2>What I Offer</h2>
       </div>
-      <div className="services_container" >
+      <div className="services_container">
         <article className="service">
           <div className="service_head">
             <h3>UI/UX Design</h3>

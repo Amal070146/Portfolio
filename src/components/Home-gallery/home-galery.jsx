@@ -15,8 +15,8 @@ import Define from "../../assets/certificates/Define.png";
 const homegalery = () => {
   return (
     <div className="homegalery-wrapper">
-      <div style={{ textAlign: "center" }}>
-        <h2 style={{ textAlign: "center" }}>Certifications & Achievements</h2>
+      <div className="headingWrapper">
+        <h2 >Recognitions</h2>
       </div>
       <ul className="honeycomb" lang="es">
         <li className="honeycomb-cell">
