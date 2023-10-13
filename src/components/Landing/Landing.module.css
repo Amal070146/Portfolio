@@ -1,0 +1,46 @@
+.wrapper {
+  width: 100%;
+}
+
+.InnerWrapper {
+  width: 100%;
+  padding: 5% 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 8vh;
+  height: 100%;
+}
+
+.InnerWrapper > .content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.InnerWrapper > div > h1 {
+  font-size: 2rem;
+}
+
+.InnerWrapper > div > p {
+  font-size: 5rem;
+  line-height: 1.25;
+}
+.InnerWrapper > div > p > span {
+  color: #4db5ff;
+}
+.InnerWrapper > .experiences {
+  display: flex;
+  gap: 30px;
+}
+
+.InnerWrapper > .experiences > div > h1 {
+  color: #4db5ff;
+}
+@media screen and (max-width: 670px) {
+  .InnerWrapper > div > h1 {
+    font-size: 1.5rem;
+  }
+  .InnerWrapper > div > p {
+    font-size: 3rem;
+  }
+}

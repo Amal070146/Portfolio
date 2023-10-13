@@ -1,24 +1,25 @@
 .experience-wrapper {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  width: 100%;
+
   gap: 40px;
   height: fit-content;
   margin-bottom: 50px;
+  padding: 0px 10%;
 }
 .experience-heading {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+
   gap: 10px;
+  text-transform: uppercase;
 }
 
-.experience-heading>h5{
+.experience-heading > h5 {
   font-size: 20px;
 }
-.experience-heading>h2{
+.experience-heading > h2 {
   font-size: 30px;
 }
 .experience_container {
@@ -33,7 +34,6 @@
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: var(--transition);
- 
 }
 
 .experience_container > div:hover {
@@ -66,15 +66,12 @@
 
 /* media quries (medium)*/
 @media screen and (max-width: 1224px) {
-.experience_container {
+  .experience_container {
     grid-template-columns: 1fr;
   }
 }
 @media screen and (max-width: 1024px) {
-
-
   .experience_container > div {
-    
     padding: 2rem;
     margin: 0 auto;
   }
@@ -94,4 +91,15 @@
     width: 100%;
     padding: 2rem 1rem;
   }
+}
+@media screen and (max-width: 400px) {
+  .experience_content {
+    padding: 0.5rem;
+  }
+   .experience_content h4{
+    font-size: 15px;
+   }
+    .experience_content small{
+      font-size: 12px;
+    }
 }

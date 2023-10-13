@@ -6,10 +6,9 @@ import { RiProjectorFill } from "react-icons/ri";
 
 const About = () => {
   return (
-    <div id="about" data-aos="fade-right" className="about-section">
+    <div id="about"  className="about-section">
       <div className="about-heading">
-        <h5>Get To Know</h5>
-        <h2>About Me</h2>
+        <h2>ABOUT ME</h2>
       </div>
       <div className="about_container">
         <div className="about_content">
@@ -22,7 +21,7 @@ const About = () => {
             track record of meeting tight deadlines. Front-end Developer | UI/UX
             Designer | Graphic Designer | Back-end Developer
           </p>
-          <div className="about_cards">
+          {/* <div className="about_cards">
             <article className="about_card">
               <RiAwardFill className="about_icon" />
               <h5>Experience</h5>
@@ -38,7 +37,7 @@ const About = () => {
               <h5>Projects</h5>
               <small>40+ Projects</small>
             </article>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
