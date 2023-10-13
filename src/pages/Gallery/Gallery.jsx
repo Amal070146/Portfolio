@@ -8,6 +8,11 @@ import { MdOutlineHomeRepairService } from "react-icons/md";
 import { TbMessages } from "react-icons/tb";
 import { useState } from "react";
 
+import Summit from "../../assets/certificates/Summit.png";
+import tegain from "../../assets/certificates/acp tegain.jpg";
+import glome from "../../assets/certificates/Amal CP gome internship.png";
+import GDSC from "../../assets/certificates/GDSCWOW.png";
+
 const Gallery = () => {
   const [activeNav, setActiveNav] = useState("#");
   return (
@@ -54,29 +59,21 @@ const Gallery = () => {
       <div className="gallery-wrapper">
         <ul>
           <li>
-            <img
-              src="https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1568814785/photostream-photos/DSC05466_kwlv0n.jpg"
-              alt="A Toyota Previa covered in graffiti"
-              loading="lazy"
-            />
+            <img src={tegain} alt="tegain" loading="lazy" />
           </li>
           <li>
             <img
-              src="https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1568814785/photostream-photos/DSC05621_zgtcco.jpg"
+              src={Summit}
               alt="Interesting living room light through a window"
               loading="lazy"
             />
           </li>
           <li>
-            <img
-              src="https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1568814785/photostream-photos/DSC05513_gfbiwi.jpg"
-              alt="Sara on a red bike"
-              loading="lazy"
-            />
+            <img src={glome} alt="Sara on a red bike" loading="lazy" />
           </li>
           <li>
             <img
-              src="https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1568814785/photostream-photos/DSC05588_nb0dma.jpg"
+              src={GDSC}
               alt="XOXO venue in between talks"
               loading="lazy"
             />

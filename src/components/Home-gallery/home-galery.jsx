@@ -1,12 +1,16 @@
-import React from 'react'
-import './homegalery.css'
+import React from "react";
+import "./homegalery.css";
 import { MdOutlineReadMore } from "react-icons/md";
 
 // certificate
 
-import img1 from "../../assets/certificates/Beach hack 5 Amal C P.jpg";
-import img2 from "../../assets/certificates/cdw..png";
-
+import beachhack from "../../assets/certificates/Beach hack 5 Amal C P.jpg";
+import RIBC from "../../assets/certificates/ribc.png";
+import YIP from "../../assets/certificates/yip2023 voc.png";
+import cdw from "../../assets/certificates/cdw..png";
+import HFT from "../../assets/certificates/hackfortommorow.png";
+import Summit from "../../assets/certificates/Summit.png";
+import Define from "../../assets/certificates/Define.png";
 
 const homegalery = () => {
   return (
@@ -16,64 +20,32 @@ const homegalery = () => {
       </div>
       <ul className="honeycomb" lang="es">
         <li className="honeycomb-cell">
-          <img
-            className="honeycomb-cell__image"
-            src={img1}
-            alt="img"
-          />
+          <img className="honeycomb-cell__image" src={beachhack} alt="img" />
           <div className="honeycomb-cell__title">Beach Hack 5</div>
         </li>
         <li className="honeycomb-cell">
-          <img
-            className="honeycomb-cell__image"
-            src="https://source.unsplash.com/random/2"
-            alt="img"
-          />
-          <div className="honeycomb-cell__title">Impermeables</div>
+          <img className="honeycomb-cell__image" src={RIBC} alt="img" />
+          <div className="honeycomb-cell__title">RIBC 2022</div>
         </li>
         <li className="honeycomb-cell">
-          <img
-            className="honeycomb-cell__image"
-            src="https://source.unsplash.com/random/3"
-            alt="img"
-          />
-          <div className="honeycomb-cell__title">Tablero doble cara</div>
+          <img className="honeycomb-cell__image" src={YIP} alt="img" />
+          <div className="honeycomb-cell__title">YIP</div>
         </li>
         <li className="honeycomb-cell">
-          <img
-            className="honeycomb-cell__image"
-            src="https://source.unsplash.com/random/4"
-            alt="img"
-          />
-          <div className="honeycomb-cell__title">Maletín de empaque</div>
+          <img className="honeycomb-cell__image" src={cdw} alt="img" />
+          <div className="honeycomb-cell__title">CODe Design Week</div>
         </li>
         <li className="honeycomb-cell">
-          <img
-            className="honeycomb-cell__image"
-            src="https://source.unsplash.com/random/5"
-            alt="img"
-          />
-          <div className="honeycomb-cell__title">
-            Antireflectivo<small>No vidrio</small>
-          </div>
+          <img className="honeycomb-cell__image" src={HFT} alt="img" />
+          <div className="honeycomb-cell__title">HackForTommorow</div>
         </li>
         <li className="honeycomb-cell">
-          <img
-            className="honeycomb-cell__image"
-            src="https://source.unsplash.com/random/6"
-            alt="img"
-          />
-          <div className="honeycomb-cell__title">
-            6 fichas<small>1 de repuesto</small>
-          </div>
+          <img className="honeycomb-cell__image" src={Summit} alt="img" />
+          <div className="honeycomb-cell__title">IEDC Summit Hack</div>
         </li>
         <li className="honeycomb-cell">
-          <img
-            className="honeycomb-cell__image"
-            src="https://source.unsplash.com/random/7"
-            alt="img"
-          />
-          <div className="honeycomb-cell__title">Tablero magnético</div>
+          <img className="honeycomb-cell__image" src={Define} alt="img" />
+          <div className="honeycomb-cell__title">Define Hack</div>
         </li>
         <li className="honeycomb-cell honeycomb__placeholder"></li>
       </ul>
@@ -85,6 +57,6 @@ const homegalery = () => {
       </div>
     </div>
   );
-}
+};
 
-export default homegalery
+export default homegalery;
