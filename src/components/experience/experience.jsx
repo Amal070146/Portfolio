@@ -18,6 +18,20 @@ const experience = () => {
       description:
         "As a Technical Associate, I led the development of a applications using ReactJs, ReactNative ensuring a seamless user experience and efficient data management.",
     },
+    {
+      company: "Glome Healthtech",
+      time: "09/2022 to 04/2023",
+      role: "Web Developer Intern",
+      description:
+        "As a Technical Associate, I developed a dynamic website with Django, HTML, and CSS,ensuring mobile responsiveness and improved user engagement.",
+    },
+    {
+      company: "Tegain",
+      time: "04/2022 to 02/2023",
+      role: "Web Developer Intern",
+      description:
+        "I specialized in developing user interfaces for web applications using modern JavaScript frameworks, complemented by HTML5 and CSS3. In addition to this front-end development, I crafted testing code for these web-based applications to ensure robustness and reliability. Collaborating closely with fellow developers, I played an integral role in the creation of new code, enhancing the overall functionality and user experience of our projects.",
+    },
   ];
   return (
     <div id="experience" className="experienceWrapper">
