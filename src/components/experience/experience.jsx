@@ -3,107 +3,41 @@ import "./experience.css";
 import { BsPatchCheckFill } from "react-icons/bs";
 
 const experience = () => {
+  const data = [
+    {
+      company: "GTech Mulearn",
+      time: "05/2023 to 10/2023",
+      role: "Frontent Developer",
+      description:
+        "Using critical thinking, I consistently broke down complex problems, evaluated potential solutions, and made informed decisions. In addition to this analytical approach, I ensured that day-to-day duties were executed with precision and efficiency. Furthermore, I was instrumental in developing a new version of the website for Mulearn.",
+    },
+    {
+      company: "Fynext innovations Pvt Ltd",
+      time: "02/2023 to 06/2023",
+      role: "Frontent Developer",
+      description:
+        "As a Technical Associate, I led the development of a applications using ReactJs, ReactNative ensuring a seamless user experience and efficient data management.",
+    },
+  ];
   return (
-    <div id="experience"  className="experience-wrapper">
-      <div className="experience-heading">
-       
+    <div id="experience" className="experienceWrapper">
+      <div className="experienceHeading">
         <h2>My Experience</h2>
       </div>
-      <div className="experience_container">
-        <div className="experience_website">
-          <h3>Website Development</h3>
-          <div className="experience_content">
-            <article className="experience_details">
-              <BsPatchCheckFill className="experience_details_icon" />
+
+      <div className="ExperienceContentWrapper">
+        {data.map(({ company, time, role, description }) => {
+          return (
+            <div className="IndividualExperiences">
+              <h2>{role}</h2>
               <div>
-                <h4>HTML</h4>
-                <small className="text_light">Experienced</small>
+                <h2>{company}</h2>
+                <p>{time}</p>
               </div>
-            </article>
-            <article className="experience_details">
-              <BsPatchCheckFill className="experience_details_icon" />
-              <div>
-                <h4>CSS</h4>
-                <small className="text_light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience_details">
-              <BsPatchCheckFill className="experience_details_icon" />
-              <div>
-                <h4>JavaScript</h4>
-                <small className="text_light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience_details">
-              <BsPatchCheckFill className="experience_details_icon" />
-              <div>
-                <h4>Django</h4>
-                <small className="text_light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience_details">
-              <BsPatchCheckFill className="experience_details_icon" />
-              <div>
-                <h4>ReactJs</h4>
-                <small className="text_light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience_details">
-              <BsPatchCheckFill className="experience_details_icon" />
-              <div>
-                <h4>Python</h4>
-                <small className="text_light">Intermediate</small>
-              </div>
-            </article>
-            <article className="experience_details">
-              <BsPatchCheckFill className="experience_details_icon" />
-              <div>
-                <h4>TypeScript</h4>
-                <small className="text_light">Intermediate</small>
-              </div>
-            </article>
-            <article className="experience_details">
-              <BsPatchCheckFill className="experience_details_icon" />
-              <div>
-                <h4>C++</h4>
-                <small className="text_light">Intermediate</small>
-              </div>
-            </article>
-          </div>
-        </div>
-        <div className="experience_design">
-          <h3>Design(UI/UX & Posters)</h3>
-          <div className="experience_content">
-            <article className="experience_details">
-              <BsPatchCheckFill className="experience_details_icon" />
-              <div>
-                <h4>Figma</h4>
-                <small className="text_light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience_details">
-              <BsPatchCheckFill className="experience_details_icon" />
-              <div>
-                <h4>Photoshop</h4>
-                <small className="text_light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience_details">
-              <BsPatchCheckFill className="experience_details_icon" />
-              <div>
-                <h4>Illustrator</h4>
-                <small className="text_light">Beginer</small>
-              </div>
-            </article>
-            <article className="experience_details">
-              <BsPatchCheckFill className="experience_details_icon" />
-              <div>
-                <h4>Canva</h4>
-                <small className="text_light">Intermediate</small>
-              </div>
-            </article>
-          </div>
-        </div>
+              <p>{description}</p>
+            </div>
+          );
+        })}
       </div>
     </div>
   );
