@@ -17,6 +17,7 @@
 
 .service-header > h2 {
   font-size: 2rem;
+  text-transform: uppercase;
 }
 
 .services_container {
@@ -28,8 +29,8 @@
 }
 
 .service {
-  background: black;
-  border-radius: 2rem;
+  
+  border-radius: 0.5rem 2rem;
   border: 1px solid #4db5ff;
   height: fit-content;
   width: fit-content;
@@ -37,22 +38,17 @@
   max-width: 450px;
 }
 
-.service:hover {
-  background: transparent;
-  border-color: white;
-  cursor: default;
-}
+
 
 .service_head {
-  background: #4db5ff;
-  padding: 2rem 1rem;
-  border-radius: 2rem;
+  color: #4db5ff;
+  padding: 2rem 1rem 0rem;
+ 
 
   box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
 }
 
 .service_head h3 {
-  color: black;
   font-size: 1rem;
   text-align: center;
 }
