@@ -8,9 +8,7 @@ import IMG4 from "../../assets/projects/wrap.png";
 import IMG5 from "../../assets/projects/unnathi.png";
 import IMG6 from "../../assets/portfolio1.png";
 
-
-
-import {MdOutlineReadMore} from 'react-icons/md'
+import { MdOutlineReadMore } from "react-icons/md";
 
 const data = [
   {
@@ -23,7 +21,7 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: "Website for Mulearn CCE Chapter",
+    title: "Website - Mulearn CCE Chapter",
     github: "https://github.com/Amal070146/mulearn_cce",
     demo: "https://mulearn-cce.vercel.app/",
   },
@@ -67,16 +65,13 @@ const portfolio = () => {
         {data.map(({ id, image, title, github, demo }) => {
           return (
             <article key={id} className="portfolio_item">
-              <div className="portfolio_item_image">
+              <a href={demo} target="_blank" className="portfolio_item_image">
                 <img src={image} alt={title} />
-              </div>
+              </a>
               <h3>{title}</h3>
               <div className="portfolio_item_cta">
                 <a href={github} className="btn" target="_blank">
                   GitHub
-                </a>
-                <a href={demo} className="btn btn-primary" target="_blank">
-                  Live Demo
                 </a>
               </div>
             </article>

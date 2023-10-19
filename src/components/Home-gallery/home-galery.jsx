@@ -16,7 +16,7 @@ const homegalery = () => {
   return (
     <div className="homegalery-wrapper">
       <div className="headingWrapper">
-        <h2 >Recognitions</h2>
+        <h2>Recognitions</h2>
       </div>
       <ul className="honeycomb" lang="es">
         <li className="honeycomb-cell">
@@ -49,12 +49,11 @@ const homegalery = () => {
         </li>
         <li className="honeycomb-cell honeycomb__placeholder"></li>
       </ul>
-      <div className="portfolio-view-button">
-        <a href="/gallery">
-          {" "}
-          View More <MdOutlineReadMore />
-        </a>
-      </div>
+
+      <a href="/gallery" className="portfolio-view-button">
+        {" "}
+        View More <MdOutlineReadMore />
+      </a>
     </div>
   );
 };

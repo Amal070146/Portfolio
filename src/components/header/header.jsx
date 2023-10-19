@@ -33,30 +33,27 @@ const Header = () => {
   return (
     <>
       <div className="whole-wrapper">
-        <div className="headers">
-          <div className="header_container">
-            <div className="header-image-link-wrapper">
-              <div className="me">
-                <div></div>
-                <div className="fixedContentBox">
-                  <div>
-                    <h1>Amal C P</h1>
-                    <p>FULL STACK DEVELOPER</p>
-                  </div>
-                  <div className="project-fixed-details">
-                    <div>
-                      <h2>3+</h2>
-                      <p>Years of Experience</p>
-                    </div>
-                    <div>
-                      <h2>30+</h2>
-                      <p>Projects Completed</p>
-                    </div>
-                  </div>
-                </div>
-
-                <img src={ME} alt="me" />
+        <div className="header_container">
+          <div className="fixedContentBox">
+            <div>
+              <h1>Amal C P</h1>
+              <p>FULL STACK DEVELOPER</p>
+            </div>
+            <div className="project-fixed-details">
+              <div>
+                <h2>3+</h2>
+                <p>Years of<br></br>Experience</p>
               </div>
+              <div>
+                <h2>30+</h2>
+                <p>Projects<br></br>Completed</p>
+              </div>
+            </div>
+          </div>
+          <div className="amalcpImageWrapper">
+            {" "}
+            <img src={ME} alt="me" />
+            <div>
               <div className="social_medias">
                 <HeaderSocial />
               </div>
@@ -64,6 +61,7 @@ const Header = () => {
             </div>
           </div>
         </div>
+
         <div className="right-scroll-container">
           <Landing />
           <About />
