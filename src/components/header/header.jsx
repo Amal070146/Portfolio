@@ -35,6 +35,7 @@ const Header = () => {
       <div className="whole-wrapper">
         <div className="header_container">
           <div className="fixedContentBox">
+      
             <div>
               <h1>Amal C P</h1>
               <p>FULL STACK DEVELOPER</p>

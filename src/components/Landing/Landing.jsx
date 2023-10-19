@@ -8,7 +8,7 @@ const Landing = () => {
         <div className={styles.content}>
           <h1>INTRODUCE</h1>
           <p>
-            Say Hi from <span>Amal C P</span>, Developer and Designer
+            Say Hi from <span>Amal C P</span>,<br></br>Developer and Designer
           </p>
           <div>
             <p>

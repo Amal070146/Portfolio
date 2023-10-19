@@ -55,10 +55,6 @@
   gap: 10px;
 }
 
-.contact_option:hover {
-  background: transparent;
-  border-color: #4db5ff;
-}
 
 .contact_option_icon {
   font-size: 1.5rem;
