@@ -43,7 +43,7 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   color: white;
-  background-color: #0a3e63;
+  background-color: #03121E;
 
 }
 
@@ -108,11 +108,7 @@ a:hover {
   color: black;
 }
 
-img {
-  display: block;
-  width: 100%;
-  object-fit: cover;
-}
+
 
 /* media quries (medium)*/
 

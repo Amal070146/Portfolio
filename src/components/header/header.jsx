@@ -34,47 +34,26 @@ const Header = () => {
     <>
       <div className="whole-wrapper">
         <div className="header_container">
-          <div className="fixedContentBox">
-      
-            <div>
-              <h1>Amal C P</h1>
-              <p>FULL STACK DEVELOPER</p>
+          <img src={ME} alt="me" />
+          <div>
+            <div className="social_medias">
+              <HeaderSocial />
             </div>
-            <div className="project-fixed-details">
-              <div>
-                <h2>3+</h2>
-                <p>Years of<br></br>Experience</p>
-              </div>
-              <div>
-                <h2>30+</h2>
-                <p>Projects<br></br>Completed</p>
-              </div>
-            </div>
-          </div>
-          <div className="amalcpImageWrapper">
-            {" "}
-            <img src={ME} alt="me" />
-            <div>
-              <div className="social_medias">
-                <HeaderSocial />
-              </div>
-              <CTA />
-            </div>
+            <CTA />
           </div>
         </div>
-
         <div className="right-scroll-container">
           <Landing />
-          <About />
-          <Experience />
-          <Services />
-          <Portfolio />
-          <Tools />
-          <Gallery />
-          <Contact />
-          <Footer />
         </div>
       </div>
+      <About />
+      <Experience />
+      <Services />
+      <Portfolio />
+      <Tools />
+      <Gallery />
+      <Contact />
+      <Footer />
     </>
   );
 };

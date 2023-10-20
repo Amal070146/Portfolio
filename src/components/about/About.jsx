@@ -21,23 +21,7 @@ const About = () => {
             track record of meeting tight deadlines. Front-end Developer | UI/UX
             Designer | Graphic Designer | Back-end Developer
           </p>
-          {/* <div className="about_cards">
-            <article className="about_card">
-              <RiAwardFill className="about_icon" />
-              <h5>Experience</h5>
-              <small>3+ Years Working</small>
-            </article>
-            <article className="about_card">
-              <HiOutlineUsers className="about_icon" />
-              <h5>Clients</h5>
-              <small>30+ Clents</small>
-            </article>
-            <article className="about_card">
-              <RiProjectorFill className="about_icon" />
-              <h5>Projects</h5>
-              <small>40+ Projects</small>
-            </article>
-          </div> */}
+      
         </div>
       </div>
     </div>
