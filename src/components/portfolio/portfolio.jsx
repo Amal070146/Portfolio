@@ -59,7 +59,7 @@ const portfolio = () => {
   return (
     <div id="portfolio" className=".portfolio-wrapper">
       <div className="portfolio-header ">
-        <h2>My Recent Projects</h2>
+        <h2>My Projects</h2>
       </div>
       <div className="portfolio_container">
         {data.map(({ id, image, title, github, demo }) => {
