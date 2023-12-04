@@ -6,7 +6,7 @@ import IMG3 from "../../assets/projects/fundesign.png";
 
 import IMG4 from "../../assets/projects/wrap.png";
 import IMG5 from "../../assets/projects/unnathi.png";
-import IMG6 from "../../assets/portfolio1.png";
+import IMG6 from "../../assets/projects/Cholaarts.png";
 
 import { MdOutlineReadMore } from "react-icons/md";
 
@@ -46,18 +46,19 @@ const data = [
     github: "https://github.com/Amal070146/unnathi-vite",
     demo: "https://unnathi-new.vercel.app/",
   },
+ 
   {
     id: 6,
     image: IMG6,
-    title: "Lab Report Daily basis analysing application",
-    github: "https://github.com/Amal070146/TEZER",
-    demo: "https://github.com/Amal070146/TEZER",
+    title: "Chola Art Gallery",
+    github: "https://github.com/Amal070146/Chola-Arts-Gallery",
+    demo: "https://cholaart.in/",
   },
 ];
 
 const portfolio = () => {
   return (
-    <div id="portfolio" className=".portfolio-wrapper">
+    <div id="portfolio" className="portfolio-wrapper">
       <div className="portfolio-header ">
         <h2>My Projects</h2>
       </div>
@@ -78,10 +79,10 @@ const portfolio = () => {
           );
         })}
       </div>
-      {/* 
-      <div className="portfolio-view-button">
-        <a href="/projects"> View More <MdOutlineReadMore /></a>
-      </div> */}
+
+      <a href="/projects" className="portfolio-view-button">
+        View More <MdOutlineReadMore />
+      </a>
     </div>
   );
 };
