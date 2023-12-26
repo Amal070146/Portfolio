@@ -16,7 +16,7 @@ const headersocial = () => {
       <a href="https://www.linkedin.com/in/amal-c-p/" target="_blank">
         <AiFillLinkedin />
       </a>
-      <a href="https://github.com/Amal070146/" target="_blank">
+      <a href="https://github.com/amalcpaulson/" target="_blank">
         <AiOutlineGithub />
       </a>
       <a href="https://www.instagram.com/amalcpaulson/" target="_blank">
