@@ -2,7 +2,7 @@ import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../assets/projects/cdw.png";
 import IMG2 from "../../assets/projects/mulearncce.png";
-import IMG3 from "../../assets/projects/fundesign.png";
+import IMG10 from "../../assets/projects/opengrad.png";
 
 import IMG4 from "../../assets/projects/wrap.png";
 import IMG5 from "../../assets/projects/unnathi.png";
@@ -26,11 +26,11 @@ const data = [
     demo: "https://mulearn-cce.vercel.app/",
   },
   {
-    id: 3,
-    image: IMG3,
-    title: "Web applicaation for Fundesign",
-    github: "https://github.com/amalcpaulson/fundesign",
-    demo: "https://fundesign.vercel.app/",
+    id: 10,
+    image: IMG10,
+    title: "OpenGrad",
+    github: "https://github.com/amalcpaulson/opengrad-frontend",
+    demo: "https://opengrads.netlify.app/",
   },
   {
     id: 4,

@@ -30,25 +30,11 @@ const Projects = () => {
       demo: "https://codedesignweek.netlify.app/",
     },
     {
-      id: 2,
-      image: IMG2,
-      title: "Website - Mulearn CCE Chapter",
-      github: "https://github.com/amalcpaulson/mulearn_cce",
-      demo: "https://mulearn-cce.vercel.app/",
-    },
-    {
-      id: 3,
-      image: IMG3,
-      title: "Web applicaation for Fundesign",
-      github: "https://github.com/amalcpaulson/fundesign",
-      demo: "https://fundesign.vercel.app/",
-    },
-    {
-      id: 4,
-      image: IMG4,
-      title: "WRAP - Waste Management Application",
-      github: "https://github.com/amalcpaulson/Wrap-Django",
-      demo: "https://wrap-web-app.netlify.app/",
+      id: 10,
+      image: IMG10,
+      title: "OpenGrad",
+      github: "https://github.com/amalcpaulson/opengrad-frontend",
+      demo: "https://opengrads.netlify.app/",
     },
     {
       id: 5,
@@ -56,6 +42,21 @@ const Projects = () => {
       title: "Unnathi - Website",
       github: "https://github.com/amalcpaulson/unnathi-vite",
       demo: "https://unnathi-new.vercel.app/",
+    },
+    {
+      id: 2,
+      image: IMG2,
+      title: "Website - Mulearn CCE Chapter",
+      github: "https://github.com/amalcpaulson/mulearn_cce",
+      demo: "https://mulearn-cce.vercel.app/",
+    },
+
+    {
+      id: 4,
+      image: IMG4,
+      title: "WRAP - Waste Management Application",
+      github: "https://github.com/amalcpaulson/Wrap-Django",
+      demo: "https://wrap-web-app.netlify.app/",
     },
 
     {
@@ -72,12 +73,13 @@ const Projects = () => {
       github: "https://github.com/amalcpaulson/gtahackathon",
       demo: "https://gta.mulearn.org/",
     },
+
     {
-      id: 10,
-      image: IMG10,
-      title: "OpenGrad",
-      github: "https://github.com/amalcpaulson/opengrad-frontend",
-      demo: "https://opengrads.netlify.app/",
+      id: 3,
+      image: IMG3,
+      title: "Web applicaation for Fundesign",
+      github: "https://github.com/amalcpaulson/fundesign",
+      demo: "https://fundesign.vercel.app/",
     },
     {
       id: 9,

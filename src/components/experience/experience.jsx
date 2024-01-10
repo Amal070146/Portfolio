@@ -6,7 +6,7 @@ const experience = () => {
   const data = [
     {
       company: "GTech Mulearn",
-      time: "05/2023 to 10/2023",
+      time: "05/2023 to 01/2024",
       role: "Frontent Developer",
       description:
         "Using critical thinking, I consistently broke down complex problems, evaluated potential solutions, and made informed decisions. In addition to this analytical approach, I ensured that day-to-day duties were executed with precision and efficiency. Furthermore, I was instrumental in developing a new version of the website for Mulearn.",
