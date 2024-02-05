@@ -4,19 +4,6 @@
   justify-content: flex-start;
 }
 
-.header_container {
-  text-align: center;
-  z-index: 9999;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  padding: 8vh 30px 2vh;
-  background-color: #03121e;
-  height: 100%;
-  min-height: 500px;
-}
 
 /*-------------CTA---------------*/
 
@@ -40,6 +27,7 @@
 .cta .cta-btn1 {
   background-color: transparent;
   color: white;
+  text-align: center;
 }
 .cta .cta-btn1:hover {
   background-color: #4db5ff;

@@ -40,21 +40,6 @@
     top: 88%;
     padding: 1.5rem;
     /* right: 4%; */
-    left: 65%;
-  }
-}
-@media screen and (max-width: 1200px) {
-  .navbar {
-    left: 70%;
-  }
-}
-@media screen and (max-width: 1000px) {
-  .navbar {
-    left: 75%;
-  }
-}
-@media screen and (max-width: 980px) {
-  .navbar {
     left: 50%;
   }
 }

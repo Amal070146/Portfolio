@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0e15fad1.css",
-    "main.js": "/static/js/main.fa506795.js",
+    "main.js": "/static/js/main.aeb71e81.js",
     "static/media/fundesign.png": "/static/media/fundesign.6375bad81a1ba183683b.png",
     "static/media/unnathi.png": "/static/media/unnathi.e93e2a48c546625e4cdf.png",
     "static/media/gtaHackathon.png": "/static/media/gtaHackathon.0fa342b36e51e48cfaaa.png",
@@ -32,10 +32,10 @@
     "static/media/frontend development libreries freecodecamp.png": "/static/media/frontend development libreries freecodecamp.a9366d2f6c8e138a531e.png",
     "index.html": "/index.html",
     "main.0e15fad1.css.map": "/static/css/main.0e15fad1.css.map",
-    "main.fa506795.js.map": "/static/js/main.fa506795.js.map"
+    "main.aeb71e81.js.map": "/static/js/main.aeb71e81.js.map"
   },
   "entrypoints": [
     "static/css/main.0e15fad1.css",
-    "static/js/main.fa506795.js"
+    "static/js/main.aeb71e81.js"
   ]
 }

@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./header.css";
 import CTA from "./CTA";
-import ME from "../../assets/amalcp.png";
-import HeaderSocial from "./headersocial";
+
 import Landing from "../Landing/Landing";
 import About from "../about/About";
 import Experience from "../experience/experience";
@@ -33,15 +32,6 @@ const Header = () => {
   return (
     <>
       <div className="whole-wrapper">
-        <div className="header_container">
-          <img src={ME} alt="me" />
-          <div>
-            <div className="social_medias">
-              <HeaderSocial />
-            </div>
-            <CTA />
-          </div>
-        </div>
         <div className="right-scroll-container">
           <Landing />
         </div>

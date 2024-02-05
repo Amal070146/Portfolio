@@ -1,24 +1,20 @@
-.wrapper {
-  width: 100%;
-}
-
 .InnerWrapper {
   width: 100%;
-  padding: 5% 8%;
+  padding: 10vh 8%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 8vh;
+  gap: 6vh;
   height: 100%;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .InnerWrapper > .content {
   display: flex;
   flex-direction: column;
   gap: 30px;
-}
-.InnerWrapper > div > h1 {
-  font-size: 2rem;
+  text-align: center;
 }
 
 .InnerWrapper > div > p {
@@ -27,20 +23,45 @@
 }
 .InnerWrapper > div > p > span {
   color: #4db5ff;
+  text-wrap: nowrap;
 }
 .InnerWrapper > .experiences {
   display: flex;
   gap: 30px;
+  align-items: center;
+  text-align: center;
+
 }
 
 .InnerWrapper > .experiences > div > h1 {
   color: #4db5ff;
 }
-@media screen and (max-width: 670px) {
-  .InnerWrapper > div > h1 {
-    font-size: 1.5rem;
+@media screen and (max-width: 1580px) {
+  .InnerWrapper > div > p {
+    font-size: 4.5rem;
+    line-height: 1.25;
+    /* letter-spacing: 0.8rem; */
   }
+}
+
+@media screen and (max-width: 1250px) {
+  .InnerWrapper > div > p {
+    font-size: 4rem;
+    line-height: 1.25;
+    /* letter-spacing: 0.5rem; */
+  }
+}
+@media screen and (max-width: 670px) {
+  
   .InnerWrapper > div > p {
     font-size: 3rem;
+  }
+}
+@media screen and (max-width:480px) {
+  .InnerWrapper{
+    padding: 10vh 8%;
+  }
+  .InnerWrapper > div > p {
+    font-size: 2rem;
   }
 }
