@@ -17,6 +17,7 @@ import IMG7 from "../../assets/projects/Cholaarts.png";
 import IMG8 from "../../assets/projects/gtaHackathon.png";
 import IMG9 from "../../assets/projects/sarahsTechno.png";
 import IMG10 from "../../assets/projects/opengrad.png";
+import IMG11 from "../../assets/projects/offcet.png";
 
 const Projects = () => {
   const [activeNav, setActiveNav] = useState("#");
@@ -42,6 +43,13 @@ const Projects = () => {
       title: "Unnathi - Website",
       github: "https://github.com/amalcpaulson/unnathi-vite",
       demo: "https://unnathi-new.vercel.app/",
+    },
+    {
+      id: 5,
+      image: IMG11,
+      title: "Offcet",
+      github: "https://github.com/amalcpaulson/offcet",
+      demo: "https://offcet.netlify.app/",
     },
     {
       id: 2,
