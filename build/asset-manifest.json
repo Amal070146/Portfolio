@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.0e15fad1.css",
-    "main.js": "/static/js/main.aeb71e81.js",
-    "static/media/fundesign.png": "/static/media/fundesign.6375bad81a1ba183683b.png",
+    "main.css": "/static/css/main.b3048923.css",
+    "main.js": "/static/js/main.09d11363.js",
     "static/media/unnathi.png": "/static/media/unnathi.e93e2a48c546625e4cdf.png",
     "static/media/gtaHackathon.png": "/static/media/gtaHackathon.0fa342b36e51e48cfaaa.png",
     "static/media/certificate pss 2023.png": "/static/media/certificate pss 2023.41301ffaf7104696bbf7.png",
     "static/media/sarahsTechno.png": "/static/media/sarahsTechno.ecdce0c709fe101df8a3.png",
+    "static/media/fundesign.png": "/static/media/fundesign.4587620c969c8f78ce7c.png",
     "static/media/Define.png": "/static/media/Define.f75b60927f115af16166.png",
     "static/media/Cholaarts.png": "/static/media/Cholaarts.cee775ff195966610624.png",
     "static/media/Tek-o-thon.png": "/static/media/Tek-o-thon.6b27a92e3e38fb760636.png",
     "static/media/cdw.png": "/static/media/cdw.8bf50b56997b44353290.png",
+    "static/media/offcet.png": "/static/media/offcet.54122e65f7617140e01b.png",
     "static/media/acp tegain.jpg": "/static/media/acp tegain.b72f014c1f4c0a8b373a.jpg",
     "static/media/Beach hack 5 Amal C P.jpg": "/static/media/Beach hack 5 Amal C P.6b5a05259319338562ec.jpg",
     "static/media/yip2023 voc.png": "/static/media/yip2023 voc.2e282b9093c2c4263afc.png",
@@ -22,20 +23,21 @@
     "static/media/Amal CP gome internship.png": "/static/media/Amal CP gome internship.a857c1cb11605dfb578e.png",
     "static/media/cdw..png": "/static/media/cdw..e2d425da98b2ee87d64c.png",
     "static/media/opengrad.png": "/static/media/opengrad.07a6b2c7be1d1a84541c.png",
-    "static/media/amalcp.png": "/static/media/amalcp.9ef7b0698d742e2dcdcc.png",
+    "static/media/Gilroy-Bold.ttf": "/static/media/Gilroy-Bold.ca49f7658c4eaac78b6d.ttf",
+    "static/media/bella.regular.ttf": "/static/media/bella.regular.61dbafcc8ae6de4d6623.ttf",
     "static/media/GDSCWOW.png": "/static/media/GDSCWOW.d3938cf4a74937b389e8.png",
     "static/media/mulearncce.png": "/static/media/mulearncce.3271c8255e3ea9d6a344.png",
-    "static/media/CV_Resume.pdf": "/static/media/CV_Resume.ec4a02dd8100fb1f95f0.pdf",
+    "static/media/CV_Resume.pdf": "/static/media/CV_Resume.6701ed7bd88c59e97241.pdf",
     "static/media/wrap.png": "/static/media/wrap.f525f52013d9a9557742.png",
     "static/media/portfolio1.png": "/static/media/portfolio1.a036566c7939cb0f1239.png",
     "static/media/responsive-web-design-freecodecamp.png": "/static/media/responsive-web-design-freecodecamp.1d75e32f5627e8734a36.png",
     "static/media/frontend development libreries freecodecamp.png": "/static/media/frontend development libreries freecodecamp.a9366d2f6c8e138a531e.png",
     "index.html": "/index.html",
-    "main.0e15fad1.css.map": "/static/css/main.0e15fad1.css.map",
-    "main.aeb71e81.js.map": "/static/js/main.aeb71e81.js.map"
+    "main.b3048923.css.map": "/static/css/main.b3048923.css.map",
+    "main.09d11363.js.map": "/static/js/main.09d11363.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e15fad1.css",
-    "static/js/main.aeb71e81.js"
+    "static/css/main.b3048923.css",
+    "static/js/main.09d11363.js"
   ]
 }

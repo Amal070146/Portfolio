@@ -11,6 +11,19 @@
   scroll-behavior: smooth;
 }
 
+
+@font-face {
+  font-family: "Bella";
+  src: local("BellaRegular"),
+    url("./fonts/bella.regular.ttf") format("truetype");
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: local("GilroyRegular"),
+    url("./fonts/Gilroy-Bold.ttf") format("truetype");
+  font-weight: 100;
+}
 /* Set the width and color of the scrollbar */
 ::-webkit-scrollbar {
   width: 0px;
