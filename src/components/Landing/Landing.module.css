@@ -7,7 +7,7 @@
   gap: 6vh;
   height: 100%;
   align-items: center;
-  min-height: 100vh;
+  min-height: calc(100dvh - 60px);
 }
 
 .InnerWrapper > .content {

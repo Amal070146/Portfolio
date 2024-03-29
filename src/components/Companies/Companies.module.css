@@ -1,0 +1,45 @@
+.Partners {
+  width: 100%;
+  padding: 0vh 0vw 0vh;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: transparent;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.Partners .PartnersImageWrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 15px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  overflow-x: auto;
+}
+.PartnersImageWrapper > div {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+
+  text-align: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.Partners .PartnersImageWrapper img {
+  height: 50px !important;
+  object-fit: contain;
+  padding: 0px 0px 10px;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 550px) {
+  .Partners {
+    gap: 15px;
+  }
+  .Partners .PartnersImageWrapper img {
+    height: 70px;
+  }
+}

@@ -1,7 +1,8 @@
 import React from "react";
 import styles from "./Landing.module.css";
 import HeaderSocial from "../header/headersocial";
-import CTA from "../header/CTA";
+
+import CV from "../../assets/CV_Resume.pdf";
 
 const Landing = () => {
   return (
@@ -35,7 +36,11 @@ const Landing = () => {
           <p>Client Satisfaction</p>
         </div>
       </div>
-      <CTA />
+      <div className="cta">
+        <a href={CV} download className="cta-btn1">
+          Download Me
+        </a>
+      </div>
     </div>
   );
 };

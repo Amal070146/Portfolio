@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./header.css";
-import CTA from "./CTA";
+
 
 import Landing from "../Landing/Landing";
 import About from "../about/About";
@@ -13,6 +13,17 @@ import Contact from "../contacts/contact";
 import Footer from "../bfooter/bfooter";
 import Tools from "../Tool/tools";
 import { useReactPath } from "./path.hook";
+import { Companies } from "../Companies/Companies";
+
+
+import opengrad from "../../assets/companies/opengrad.png";
+import sarahs from "../../assets/companies/sarahstechno.png";
+import mulearn from "../../assets/companies/mulearn.png";
+import hound from "../../assets/companies/houndelect.png";
+import offcet from "../../assets/companies/offcet.png";
+import cce from "../../assets/companies/cce.png";
+import chola from "../../assets/companies/cholaart.png";
+import unnathi from "../../assets/companies/unnathi.png";
 
 const Header = () => {
   const [navlogo, setnavlogo] = useState(false);
@@ -29,6 +40,17 @@ const Header = () => {
       window.removeEventListener("scroll", changenavlogo);
     };
   }, []);
+
+   const partnersData = [
+     { image: opengrad },
+     { image: sarahs },
+     { image: hound },
+     { image: offcet },
+     { image: cce },
+     { image: mulearn },
+     { image: chola },
+     { image: unnathi },
+   ];
   return (
     <>
       <div className="whole-wrapper">
@@ -36,6 +58,7 @@ const Header = () => {
           <Landing />
         </div>
       </div>
+      <Companies partners={partnersData} />
       <About />
       <Experience />
       <Services />
