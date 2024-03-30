@@ -107,7 +107,7 @@ const Projects = () => {
   ];
 
   return (
-    <div>
+    <div style={{background:"black"}}>
       <div>
         <nav className="navbar">
           <a
@@ -160,12 +160,20 @@ const Projects = () => {
                     href={demo}
                     target="_blank"
                     className="portfolio_item_image"
+                    rel="noopener noreferrer"
                   >
                     <img src={image} alt={title} />
                   </a>
-                  <h3>{title}</h3>
+                  <h3 style={{ color: "#FD2E35", fontFamily: "Bella" }}>
+                    {title}
+                  </h3>
                   <div className="portfolio_item_cta">
-                    <a href={github} className="btn" target="_blank">
+                    <a
+                      href={github}
+                      className="btn"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       GitHub
                     </a>
                   </div>

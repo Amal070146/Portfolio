@@ -5,15 +5,17 @@
   justify-content: center;
   width: 100%;
   margin-top: 50px;
+  font-family:  "Gilroy";
 }
 
-.homegalery-wrapper .headingWrapper{
+.homegalery-wrapper .headingWrapper {
   width: 100%;
   padding: 0px 8%;
   font-size: 1.5rem;
   font-weight: 500;
   text-transform: uppercase;
-
+  color: #fd2e35;
+   font-family: "Bella";
 }
 .honeycomb {
   display: flex;
@@ -100,7 +102,7 @@
   opacity: 0;
 }
 .honeycomb-cell:hover::before {
-  background: rgba(77, 181, 255, 0.5);
+  background: rgba(253, 46, 53, 0.8);
 }
 
 .honeycomb__placeholder {
@@ -110,17 +112,18 @@
   margin: 0 12.5px;
 }
 
-.portfolio-view-button{
+.portfolio-view-button {
   margin-top: 10px;
-  background-color:#47A9EE ;
+  background-color: #fd2e35;
   color: white;
   border-radius: 15px;
-  padding: 10px 20px;
+  padding: 13px 30px;
   display: flex;
   align-items: center;
   gap: 10px;
   width: fit-content;
-  a{
+  font-family: "Bella";
+  a {
     color: white;
     z-index: 666;
     position: relative;
@@ -203,7 +206,7 @@
   .honeycomb {
     margin-bottom: 50px;
   }
-  .homegalery-wrapper{
+  .homegalery-wrapper {
     gap: 20px;
   }
 }

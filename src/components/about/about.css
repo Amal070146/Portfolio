@@ -2,19 +2,22 @@
   height: fit-content;
   display: flex;
   flex-direction: column;
-  padding: 10px 8%;
+  padding: 5vh 8%;
   width: 100%;
+  background-color: #fd2e35;
+  gap: 3vh;
 }
 .about-heading {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-.about-heading > h5 {
-  font-size: 20px;
-}
+
 .about-heading > h2 {
-  font-size: 30px;
+  font-size: 35px;
+  color: #fff;
+
+  font-family: "Bella";
 }
 .about_container {
   gap: 15%;
@@ -22,46 +25,10 @@
   margin: auto;
 }
 
-.about_cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
-}
-
-.about_card {
-  background-color: rgba(0, 0, 0, 0.9);
-  border: 1px solid transparent;
-  border-radius: 10px;
-  padding: 2rem;
-  text-align: center;
-  transition: var(--transition);
-}
-
-.about_card:hover {
-  background: transparent;
-  border-color: var(--color-bg-variant);
-  cursor: default;
-}
-
-.about_icon {
-  color: var(--color-primary);
-  font-size: 1.4rem;
-  margin-bottom: 1rem;
-}
-
-.about_card h5 {
-  font-size: 0.9rem;
-}
-
-.about_card small {
-  font-size: 0.7rem;
-  color: var(--color-light);
-}
-
-.about_content p {
-  margin: 2rem 0 2.5rem 0;
-  color: var(--color-light);
+.about_container p {
+  color: #fff;
   text-align: justify;
+  font-size: 18px;
 }
 
 /* media quries (medium)*/

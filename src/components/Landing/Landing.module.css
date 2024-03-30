@@ -16,6 +16,7 @@
   gap: 30px;
   text-align: center;
   font-family: "Bella";
+  color: #ffffff;
 }
 
 .InnerWrapper > div > p {
@@ -23,19 +24,21 @@
   line-height: 1.25;
 }
 .InnerWrapper > div > p > span {
-  color: #4db5ff;
+  color: #fd2e35;
   text-wrap: nowrap;
 }
 .InnerWrapper > .experiences {
   display: flex;
-  gap: 30px;
+  gap: 6vw;
   align-items: center;
   text-align: center;
   font-family: "Gilroy";
+  color: rgb(255, 255, 255);
 }
 
 .InnerWrapper > .experiences > div > h1 {
-  color: #4db5ff;
+  color: #fd2e35;
+  font-size: 5rem !important;
 }
 @media screen and (max-width: 1580px) {
   .InnerWrapper > div > p {
@@ -56,6 +59,9 @@
   .InnerWrapper > div > p {
     font-size: 3rem;
   }
+  .InnerWrapper > .experiences > div > h1 {
+    font-size: 3.5rem !important;
+  }
 }
 @media screen and (max-width: 480px) {
   .InnerWrapper {
@@ -63,5 +69,8 @@
   }
   .InnerWrapper > div > p {
     font-size: 2rem;
+  }
+  .InnerWrapper > .experiences > div > h1 {
+    font-size: 2rem !important;
   }
 }

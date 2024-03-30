@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b3048923.css",
-    "main.js": "/static/js/main.09d11363.js",
+    "main.css": "/static/css/main.5b7070cc.css",
+    "main.js": "/static/js/main.42b75fde.js",
     "static/media/unnathi.png": "/static/media/unnathi.e93e2a48c546625e4cdf.png",
     "static/media/gtaHackathon.png": "/static/media/gtaHackathon.0fa342b36e51e48cfaaa.png",
     "static/media/certificate pss 2023.png": "/static/media/certificate pss 2023.41301ffaf7104696bbf7.png",
@@ -33,11 +33,11 @@
     "static/media/responsive-web-design-freecodecamp.png": "/static/media/responsive-web-design-freecodecamp.1d75e32f5627e8734a36.png",
     "static/media/frontend development libreries freecodecamp.png": "/static/media/frontend development libreries freecodecamp.a9366d2f6c8e138a531e.png",
     "index.html": "/index.html",
-    "main.b3048923.css.map": "/static/css/main.b3048923.css.map",
-    "main.09d11363.js.map": "/static/js/main.09d11363.js.map"
+    "main.5b7070cc.css.map": "/static/css/main.5b7070cc.css.map",
+    "main.42b75fde.js.map": "/static/js/main.42b75fde.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3048923.css",
-    "static/js/main.09d11363.js"
+    "static/css/main.5b7070cc.css",
+    "static/js/main.42b75fde.js"
   ]
 }

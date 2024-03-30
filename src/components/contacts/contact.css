@@ -3,11 +3,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 40px;
+  gap: 20px;
   height: fit-content;
   margin-top: 50px;
   width: 100%;
-  padding: 0px 8%;
+  padding: 5vh 8%;
+  background-color: #fd2e35;
 }
 .contact-header {
   display: flex;
@@ -21,7 +22,10 @@
   font-size: 20px;
 }
 .contact-header > h2 {
-  font-size: 30px;
+  font-size: 35px;
+  color: #fff;
+
+  font-family: "Bella";
 }
 
 .contact_container {
@@ -55,7 +59,6 @@
   gap: 10px;
 }
 
-
 .contact_option_icon {
   font-size: 1.5rem;
 }
@@ -81,9 +84,13 @@ textarea {
   padding: 1.5rem;
   border-radius: 0.5rem;
   background: transparent;
-  border: 2px solid #4db5ff;
+  border: 2px solid #fff;
   resize: none;
   color: white;
+}
+
+::-webkit-input-placeholder { /* Chrome, Opera, Safari */
+    color: white;
 }
 .formbtn {
   width: max-content;
@@ -92,10 +99,12 @@ textarea {
   padding: 0.75rem 1.2rem;
   border-radius: 0.4rem;
   cursor: pointer;
-  border: 1px solid #4db5ff;
+  border: 1px solid #fff;
   transition: var(--transition);
-  color: #4db5ff;
+  color: #fff;
+  font-size: 18px;
   background-color: transparent;
+    font-family: "Bella";
 }
 /* media quries (medium)*/
 

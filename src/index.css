@@ -28,7 +28,6 @@
 ::-webkit-scrollbar {
   width: 0px;
   height: 0px;
-  background-color: #f5f5f5;
 }
 
 :root {
@@ -56,7 +55,6 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   color: white;
-  background-color: #03121E;
 
 }
 
@@ -102,16 +100,19 @@ a:hover {
 .btn {
   width: max-content;
   display: inline-block;
-  color: #4db5ff;
-  padding: 0.35rem;
-  border-radius: 20px;
+  color: #fff;
+  padding: 10px;
+  border-radius: 15px;
   cursor: pointer;
-  border: 1px solid #4db5ff;
+  border: 1px solid #fd2e35;
+  background-color: #fd2e35;
   transition: var(--transition);
+  font-size: 18px;
+  font-family: "Bella";
 }
 
 .btn :hover {
-  background-color: white;
+  background-color: #fd2e35;
   color: var(--color-bg);
   border-color: transparent;
 }

@@ -6,7 +6,7 @@ import CV from "../../assets/CV_Resume.pdf";
 
 const Landing = () => {
   return (
-    <div className={styles.InnerWrapper}>
+    <div className={styles.InnerWrapper} id="home">
       <div className={styles.content}>
         <p>
           Say Hi from <span>Amal C P</span>,<br></br>Developer and Designer

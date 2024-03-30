@@ -41,21 +41,33 @@ const Contact = () => {
           <article className="contact_option">
             <MdEmail className="contact_option_icon" />
 
-            <a href="mailto:amalcpaulson@gmail.com" target="_blank">
+            <a
+              href="mailto:amalcpaulson@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               amalcpaulson@gmail.com
             </a>
           </article>
           <article className="contact_option">
             <FaTelegramPlane className="contact_option_icon" />
 
-            <a href="https://t.me/amalcpaulson" target="_blank">
+            <a
+              href="https://t.me/amalcpaulson"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               @amalcpaulson
             </a>
           </article>
           <article className="contact_option">
             <IoLogoWhatsapp className="contact_option_icon" />
 
-            <a href="https://wa.me/+917994043754" target="_blank">
+            <a
+              href="https://wa.me/+917994043754"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               +91 7994043754
             </a>
           </article>

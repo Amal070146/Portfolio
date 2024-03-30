@@ -2,8 +2,8 @@
   width: 100%;
   display: flex;
   justify-content: flex-start;
-}
 
+}
 
 /*-------------CTA---------------*/
 
@@ -15,31 +15,23 @@
 }
 
 .cta-btn1 {
-  border: 2px solid #4db5ff;
+  border: 2px solid #fd2e35;
   border-radius: 10px;
   width: 280px;
-  padding: 10px;
-  background-color: #4db5ff;
-  color: #03121e;
+  padding:13px 10px;
   text-transform: uppercase;
   font-weight: 500;
+   font-family: "Bella";
 }
 .cta .cta-btn1 {
-  background-color: transparent;
-  color: white;
+  background-color: #fd2e35;
+  color: #fff;
   text-align: center;
 }
 .cta .cta-btn1:hover {
-  background-color: #4db5ff;
+ transform: scale(1.1);
 }
-.cta-btn2 {
-  border: 2px solid #4db5ff;
-  border-radius: 20px;
-  width: 280px;
-  padding: 5px;
-  color: black;
-  background-color: #4db5ff;
-}
+
 /*---header socials -------*/
 
 .header_socials {
@@ -56,10 +48,10 @@
   align-items: center;
   justify-content: center;
   font-size: 30px;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 .header_socials > a:hover {
-  color: #4db5ff;
+  color: #fd2e35;
 }
 .header-image-link-wrapper {
   display: flex;
@@ -129,7 +121,7 @@
   .header_container {
     width: 100%;
     border: none;
-    height:fit-content;
+    height: fit-content;
     gap: 10%;
     padding-bottom: 3vh;
   }
@@ -137,7 +129,6 @@
     font-size: 5rem;
   }
   .whole-wrapper {
-
     margin-top: 0px;
     width: 100%;
     height: fit-content;

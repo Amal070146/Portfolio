@@ -1,23 +1,23 @@
-
-
-.toolsWrapper{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 50px;
-    padding: 0px 8%;
-    gap: 30px;
+.toolsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 0px 8%;
+  gap: 30px;
 }
-.toolsWrapper>h2{
-   font-size: 2rem;
-   width: 100%;
+.toolsWrapper > h2 {
+  font-size: 35px;
+  width: 100%;
 
-   text-transform: uppercase;
+  text-transform: uppercase;
+  color: #fd2e35;
+
+  font-family: "Bella";
 }
 
-
-.toolsWrapper >div{
+.toolsWrapper > div {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -26,9 +26,8 @@
   justify-content: center;
 }
 
-.toolsWrapper >div img{
+.toolsWrapper > div img {
   width: 75px;
   object-fit: cover;
   border-radius: 30%;
-
 }

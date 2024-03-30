@@ -16,8 +16,10 @@
 }
 
 .service-header > h2 {
-  font-size: 2rem;
+  font-size: 35px;
   text-transform: uppercase;
+  font-family: "Bella";
+  color: #fd2e35;
 }
 
 .services_container {
@@ -29,28 +31,26 @@
 }
 
 .service {
-  
   border-radius: 0.5rem 2rem;
-  border: 1px solid #4db5ff;
+  border: 1px solid #fd2e35;
   height: fit-content;
   width: fit-content;
   transition: var(--transition);
   max-width: 450px;
 }
 
-
-
 .service_head {
-  color: #4db5ff;
+  color: #fd2e35;
   padding: 2rem 1rem 0rem;
- 
 
   box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
 }
 
 .service_head h3 {
-  font-size: 1rem;
+  font-size: 1.3rem;
   text-align: center;
+  font-family: "Bella";
+
 }
 .service_list {
   padding: 2rem;
@@ -63,7 +63,7 @@
 }
 
 .service_list_icon {
-  color: #4db5ff;
+  color: #fd2e35;
   margin-top: 2px;
 }
 
