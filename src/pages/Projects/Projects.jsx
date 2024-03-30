@@ -164,7 +164,7 @@ const Projects = () => {
                   >
                     <img src={image} alt={title} />
                   </a>
-                  <h3 style={{ color: "#FD2E35", fontFamily: "Bella" }}>
+                  <h3 style={{ color: `var(--color-primary)`, fontFamily: "Bella" }}>
                     {title}
                   </h3>
                   <div className="portfolio_item_cta">

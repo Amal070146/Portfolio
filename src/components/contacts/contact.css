@@ -8,7 +8,7 @@
   margin-top: 50px;
   width: 100%;
   padding: 5vh 8%;
-  background-color: #fd2e35;
+  background-color: var(--color-primary);
 }
 .contact-header {
   display: flex;

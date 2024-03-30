@@ -12,7 +12,7 @@
   width: 100%;
 
   text-transform: uppercase;
-  color: #fd2e35;
+  color: var(--color-primary);
 
   font-family: "Bella";
 }

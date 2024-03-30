@@ -14,7 +14,7 @@
   font-size: 1.5rem;
   font-weight: 500;
   text-transform: uppercase;
-  color: #fd2e35;
+  color: var(--color-primary);
    font-family: "Bella";
 }
 .honeycomb {
@@ -102,7 +102,7 @@
   opacity: 0;
 }
 .honeycomb-cell:hover::before {
-  background: rgba(253, 46, 53, 0.8);
+  background: var(--color-primary);
 }
 
 .honeycomb__placeholder {
@@ -114,7 +114,7 @@
 
 .portfolio-view-button {
   margin-top: 10px;
-  background-color: #fd2e35;
+  background-color: var(--color-primary);
   color: white;
   border-radius: 15px;
   padding: 13px 30px;

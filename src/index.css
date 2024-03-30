@@ -33,7 +33,7 @@
 :root {
   --color-bg: #0a3e63;
   --color-bg-variant: #2c2c6c;
-  --color-primary: #4db5ff;
+  --color-primary: #FA8003;
   --color-primary-variant: rgba(77, 181, 255, 0.4);
   --color-light: rgba(259, 255, 255, 0.6);
 
@@ -104,24 +104,18 @@ a:hover {
   padding: 10px;
   border-radius: 15px;
   cursor: pointer;
-  border: 1px solid #fd2e35;
-  background-color: #fd2e35;
+  border: 1px solid var(--color-primary);
+  background-color: var(--color-primary);
   transition: var(--transition);
   font-size: 18px;
   font-family: "Bella";
 }
 
 .btn :hover {
-  background-color: #fd2e35;
+  background-color: var(--color-primary);
   color: var(--color-bg);
   border-color: transparent;
 }
-
-.btn-primary {
-  background: #4db5ff;
-  color: black;
-}
-
 
 
 /* media quries (medium)*/

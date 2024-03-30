@@ -15,7 +15,7 @@
 }
 
 .cta-btn1 {
-  border: 2px solid #fd2e35;
+  border: 2px solid var(--color-primary);
   border-radius: 10px;
   width: 280px;
   padding:13px 10px;
@@ -24,7 +24,7 @@
    font-family: "Bella";
 }
 .cta .cta-btn1 {
-  background-color: #fd2e35;
+  background-color: var(--color-primary);
   color: #fff;
   text-align: center;
 }
@@ -51,7 +51,7 @@
   color: rgb(255, 255, 255);
 }
 .header_socials > a:hover {
-  color: #fd2e35;
+  color: var(--color-primary);
 }
 .header-image-link-wrapper {
   display: flex;

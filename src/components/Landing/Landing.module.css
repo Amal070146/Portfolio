@@ -24,7 +24,7 @@
   line-height: 1.25;
 }
 .InnerWrapper > div > p > span {
-  color: #fd2e35;
+  color: var(--color-primary);
   text-wrap: nowrap;
 }
 .InnerWrapper > .experiences {
@@ -37,7 +37,7 @@
 }
 
 .InnerWrapper > .experiences > div > h1 {
-  color: #fd2e35;
+  color: var(--color-primary);
   font-size: 5rem !important;
 }
 @media screen and (max-width: 1580px) {

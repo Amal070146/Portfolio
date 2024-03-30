@@ -19,7 +19,7 @@
   font-size: 35px;
   text-transform: uppercase;
   font-family: "Bella";
-  color: #fd2e35;
+  color: var(--color-primary);
 }
 
 .services_container {
@@ -32,7 +32,7 @@
 
 .service {
   border-radius: 0.5rem 2rem;
-  border: 1px solid #fd2e35;
+  border: 1px solid var(--color-primary);
   height: fit-content;
   width: fit-content;
   transition: var(--transition);
@@ -40,7 +40,7 @@
 }
 
 .service_head {
-  color: #fd2e35;
+  color: var(--color-primary);
   padding: 2rem 1rem 0rem;
 
   box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
@@ -63,7 +63,7 @@
 }
 
 .service_list_icon {
-  color: #fd2e35;
+  color: var(--color-primary);
   margin-top: 2px;
 }
 

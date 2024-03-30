@@ -4,7 +4,7 @@
   flex-direction: column;
   padding: 5vh 8%;
   width: 100%;
-  background-color: #fd2e35;
+  background-color: var(--color-primary);
   gap: 3vh;
 }
 .about-heading {

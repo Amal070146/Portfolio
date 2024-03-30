@@ -34,7 +34,7 @@
   width: 100%;
 }
 .ExperienceContentWrapper > .IndividualExperiences > h2 {
-  color: #fd2e35;
+  color: var(--color-primary);
   font-family: "Bella";
 }
 
