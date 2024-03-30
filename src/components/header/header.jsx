@@ -24,6 +24,9 @@ import offcet from "../../assets/companies/offcet.png";
 import cce from "../../assets/companies/cce.png";
 import chola from "../../assets/companies/cholaart.png";
 import unnathi from "../../assets/companies/unnathi.png";
+import Aproit from "../../assets/companies/aproit.png";
+import karghewala from "../../assets/companies/karghewala.png";
+import urbantrash from "../../assets/companies/urbantrash.png";
 
 const Header = () => {
   const [navlogo, setnavlogo] = useState(false);
@@ -50,6 +53,9 @@ const Header = () => {
      { image: mulearn },
      { image: chola },
      { image: unnathi },
+     { image: Aproit },
+     { image: karghewala },
+     { image: urbantrash },
    ];
   return (
     <>
