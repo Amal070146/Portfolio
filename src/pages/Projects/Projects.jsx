@@ -6,23 +6,39 @@ import { BsJournalBookmarkFill } from "react-icons/bs";
 import { MdOutlineHomeRepairService } from "react-icons/md";
 import { TbMessages } from "react-icons/tb";
 import { useState } from "react";
-import IMG1 from "../../assets/projects/cdw.png";
-import IMG2 from "../../assets/projects/mulearncce.png";
-import IMG3 from "../../assets/projects/fundesign.png";
+import IMG1 from "../../assets/projects/cdw.webp";
+import IMG2 from "../../assets/projects/mulearncce.webp";
+import IMG3 from "../../assets/projects/fundesign.webp";
 
-import IMG4 from "../../assets/projects/wrap.png";
-import IMG5 from "../../assets/projects/unnathi.png";
+import IMG4 from "../../assets/projects/wrap.webp";
+import IMG5 from "../../assets/projects/unnathi.webp";
 import IMG6 from "../../assets/portfolio1.png";
-import IMG7 from "../../assets/projects/Cholaarts.png";
-import IMG8 from "../../assets/projects/gtaHackathon.png";
-import IMG9 from "../../assets/projects/sarahsTechno.png";
-import IMG10 from "../../assets/projects/opengrad.png";
-import IMG11 from "../../assets/projects/offcet.png";
+import IMG7 from "../../assets/projects/Cholaarts.webp";
+import IMG8 from "../../assets/projects/gtaHackathon.webp";
+import IMG9 from "../../assets/projects/sarahsTechno.webp";
+import IMG10 from "../../assets/projects/opengrad.webp";
+import IMG11 from "../../assets/projects/offcet.webp";
+import IMG12 from "../../assets/projects/urbantrash.webp";
+import IMG13 from "../../assets/projects/karghewala.webp";
 
 const Projects = () => {
   const [activeNav, setActiveNav] = useState("#");
 
   const data = [
+    {
+      id: 12,
+      image: IMG12,
+      title: "Urban Trash",
+      github: "https://github.com/fundesigns/UrbanTrash-New",
+      demo: "https://urbantrash.in/",
+    },
+    {
+      id: 13,
+      image: IMG13,
+      title: "Karghewala",
+      github: "https://github.com/fundesigns/Karghewala",
+      demo: "https://karghewale.vercel.app/",
+    },
     {
       id: 1,
       image: IMG1,
@@ -43,20 +59,6 @@ const Projects = () => {
       title: "Unnathi - Website",
       github: "https://github.com/amalcpaulson/unnathi-vite",
       demo: "https://unnathi-new.vercel.app/",
-    },
-    {
-      id: 5,
-      image: IMG11,
-      title: "Offcet",
-      github: "https://github.com/amalcpaulson/offcet",
-      demo: "https://offcet.netlify.app/",
-    },
-    {
-      id: 2,
-      image: IMG2,
-      title: "Website - Mulearn CCE Chapter",
-      github: "https://github.com/amalcpaulson/mulearn_cce",
-      demo: "https://mulearn-cce.vercel.app/",
     },
 
     {
@@ -90,13 +92,27 @@ const Projects = () => {
       demo: "https://fundesign.vercel.app/",
     },
     {
+      id: 2,
+      image: IMG2,
+      title: "Website - Mulearn CCE Chapter",
+      github: "https://github.com/amalcpaulson/mulearn_cce",
+      demo: "https://mulearn-cce.vercel.app/",
+    },
+
+    {
       id: 9,
       image: IMG9,
       title: "Sarah's Techno",
       github: "https://github.com/amalcpaulson/SarasTechno",
       demo: "https://saras-techno.vercel.app/",
     },
-
+    {
+      id: 5,
+      image: IMG11,
+      title: "Offcet",
+      github: "https://github.com/amalcpaulson/offcet",
+      demo: "https://offcet.netlify.app/",
+    },
     {
       id: 6,
       image: IMG6,

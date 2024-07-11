@@ -8,22 +8,22 @@ import { MdOutlineHomeRepairService } from "react-icons/md";
 import { TbMessages } from "react-icons/tb";
 import { useState } from "react";
 
-import Summit from "../../assets/certificates/Summit.png";
-import tegain from "../../assets/certificates/acp tegain.jpg";
-import glome from "../../assets/certificates/Amal CP gome internship.png";
-import GDSC from "../../assets/certificates/GDSCWOW.png";
-import Beach from "../../assets/certificates/Beach hack 5 Amal C P.jpg";
-import CDW from "../../assets/certificates/cdw..png";
-import PSS from "../../assets/certificates/certificate pss 2023.png";
-import Define from "../../assets/certificates/Define.png";
-import FD from "../../assets/certificates/frontend development libreries freecodecamp.png";
-import HFT from "../../assets/certificates/hackfortommorow.png";
-import RWD from "../../assets/certificates/responsive-web-design-freecodecamp.png";
-import ribc from "../../assets/certificates/ribc.png";
-import TOT from "../../assets/certificates/Tek-o-thon.png";
-import Wings from "../../assets/certificates/wings.png";
-import yip from "../../assets/certificates/yip2023 voc.png";
-import stype from "../../assets/certificates/stype.png";
+import Summit from "../../assets/certificates/Summit.webp";
+import tegain from "../../assets/certificates/acptegain.webp";
+import glome from "../../assets/certificates/AmalCPgomeinternship.webp";
+import GDSC from "../../assets/certificates/GDSCWOW.webp";
+import Beach from "../../assets/certificates/Beachhack5AmalCP.webp";
+import CDW from "../../assets/certificates/cdw.webp";
+import PSS from "../../assets/certificates/certificatepss2023.webp";
+import Define from "../../assets/certificates/Define.webp";
+import FD from "../../assets/certificates/frontenddevelopmentlibreriesfreecodecamp.webp";
+import HFT from "../../assets/certificates/hackfortommorow.webp";
+import RWD from "../../assets/certificates/responsive-web-design-freecodecamp.webp";
+import ribc from "../../assets/certificates/ribc.webp";
+import TOT from "../../assets/certificates/Tek-o-thon.webp";
+import Wings from "../../assets/certificates/wings.webp";
+import yip from "../../assets/certificates/yip2023voc.webp";
+import stype from "../../assets/certificates/stype.webp";
 
 const Gallery = () => {
   const [activeNav, setActiveNav] = useState("#");

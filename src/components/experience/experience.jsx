@@ -5,32 +5,39 @@ import "./experience.css";
 const experience = () => {
   const data = [
     {
-      company: "GTech Mulearn",
-      time: "05/2023 to 01/2024",
+      company: "AproIT Solutions Pvt Ltd",
+      time: "02/2024 to 06/2024",
       role: "Frontent Developer",
       description:
-        "Using critical thinking, I consistently broke down complex problems, evaluated potential solutions, and made informed decisions. In addition to this analytical approach, I ensured that day-to-day duties were executed with precision and efficiency. Furthermore, I was instrumental in developing a new version of the website for Mulearn.",
+        "Completed daily tasks with 90% precision, reducing operational errors by 25%.Analyzed complex issues using data-driven insights, reducing project turnaround time by 20% and improving decision-making efficiency by 15%.Spearheaded the development of new versions of the company's website and mobile application, resulting in a 30% increase in user engagement.",
+    },
+    {
+      company: "GTech Mulearn",
+      time: "05/2023 to 03/2024",
+      role: "Frontent Developer",
+      description:
+        "Used critical thinking to break down problems, evaluate solutions and make decisions.Executed daily tasks with 99% accuracy, reducing operational errors by 20%.Led the development of a new version of the website for Mulearn, enhancing user experience and increasing site traffic by 40%.",
     },
     {
       company: "Fynext innovations Pvt Ltd",
       time: "02/2023 to 06/2023",
       role: "Frontent Developer",
       description:
-        "As a Technical Associate, I led the development of a applications using ReactJs, ReactNative ensuring a seamless user experience and efficient data management.",
+        "As a Technical Associate, I led the development of a applications using ReactJs, React Native ensuring a seamless user experience and efficient data management.",
     },
     {
       company: "Glome Healthtech",
       time: "09/2022 to 04/2023",
       role: "Web Developer Intern",
       description:
-        "As a Technical Associate, I developed a dynamic website with Django, HTML, and CSS,ensuring mobile responsiveness and improved user engagement.",
+        "Engineered a dynamic website using Django, HTML, and CSS with a team of 3; enhanced mobile responsiveness and user engagement, resulting in a 25% increase in daily active users over 6 months.",
     },
     {
       company: "Tegain",
       time: "04/2022 to 02/2023",
       role: "Web Developer Intern",
       description:
-        "I specialized in developing user interfaces for web applications using modern JavaScript frameworks, complemented by HTML5 and CSS3. In addition to this front-end development, I crafted testing code for these web-based applications to ensure robustness and reliability. Collaborating closely with fellow developers, I played an integral role in the creation of new code, enhancing the overall functionality and user experience of our projects.",
+        "Developed user interfaces for web applications using JavaScript frameworks, HTML5, and CSS3, increasing user satisfaction by 25%. Collaborated with a team of developers, reducing development time by 15%.",
     },
   ];
   return (

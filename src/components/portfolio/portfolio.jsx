@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/projects/cdw.png";
-import IMG2 from "../../assets/projects/mulearncce.png";
-import IMG10 from "../../assets/projects/opengrad.png";
+import IMG1 from "../../assets/projects/cdw.webp";
+import IMG2 from "../../assets/projects/mulearncce.webp";
+import IMG10 from "../../assets/projects/opengrad.webp";
 
-import IMG4 from "../../assets/projects/wrap.png";
-import IMG5 from "../../assets/projects/unnathi.png";
-import IMG6 from "../../assets/projects/Cholaarts.png";
+import IMG4 from "../../assets/projects/urbantrash.webp";
+import IMG5 from "../../assets/projects/unnathi.webp";
+import IMG6 from "../../assets/projects/Cholaarts.webp";
 
 import { MdOutlineReadMore } from "react-icons/md";
 
@@ -43,9 +43,9 @@ const data = [
   {
     id: 4,
     image: IMG4,
-    title: "WRAP - Waste Management Application",
-    github: "https://github.com/amalcpaulson/Wrap-Django",
-    demo: "https://wrap-web-app.netlify.app/",
+    title: "Urban Trash",
+    github: "https://github.com/fundesigns/UrbanTrash-New",
+    demo: "https://urbantrash.in/",
   },
 
   {

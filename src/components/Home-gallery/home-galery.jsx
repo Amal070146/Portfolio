@@ -4,13 +4,13 @@ import { MdOutlineReadMore } from "react-icons/md";
 
 // certificate
 
-import beachhack from "../../assets/certificates/Beach hack 5 Amal C P.jpg";
-import RIBC from "../../assets/certificates/ribc.png";
-import YIP from "../../assets/certificates/yip2023 voc.png";
-import cdw from "../../assets/certificates/cdw..png";
-import HFT from "../../assets/certificates/hackfortommorow.png";
-import Summit from "../../assets/certificates/Summit.png";
-import Define from "../../assets/certificates/Define.png";
+import beachhack from "../../assets/certificates/Beachhack5AmalCP.webp";
+import RIBC from "../../assets/certificates/ribc.webp";
+import YIP from "../../assets/certificates/yip2023voc.webp";
+import cdw from "../../assets/certificates/cdw.webp";
+import HFT from "../../assets/certificates/hackfortommorow.webp";
+import Summit from "../../assets/certificates/Summit.webp";
+import Define from "../../assets/certificates/Define.webp";
 
 const homegalery = () => {
   return (
